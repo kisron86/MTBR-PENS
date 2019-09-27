@@ -1,4 +1,3 @@
-//this is open camera
 #include "ros/ros.h"
 #include <iostream>
 #include <opencv2/opencv.hpp>
