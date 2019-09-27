@@ -2144,6 +2144,19 @@ img_writer/fast:
 .PHONY : img_writer/fast
 
 #=============================================================================
+# Target rules for targets named subscriber
+
+# Build rule for target.
+subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	$(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
+
+#=============================================================================
 # Target rules for targets named slave1_subscriber
 
 # Build rule for target.
@@ -2594,6 +2607,7 @@ help:
 	@echo "... stereoNode"
 	@echo "... stereoCapture"
 	@echo "... img_writer"
+	@echo "... subscriber"
 	@echo "... slave1_subscriber"
 	@echo "... rosserial_server_socket_node"
 	@echo "... rosserial_server_udp_socket_node"

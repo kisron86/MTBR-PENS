@@ -68,15 +68,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -101,6 +103,16 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -122,18 +134,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,6 +166,21 @@ preinstall/fast:
 depend:
 	cd /home/kisron/catkin_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+slave/CMakeFiles/subscriber.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/subscriber.dir/rule
+.PHONY : slave/CMakeFiles/subscriber.dir/rule
+
+# Convenience name for target.
+subscriber: slave/CMakeFiles/subscriber.dir/rule
+
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
 # Convenience name for target.
 slave/CMakeFiles/slave1_subscriber.dir/rule:
@@ -209,6 +224,33 @@ src/slave1_subscriber.cpp.s:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.s
 .PHONY : src/slave1_subscriber.cpp.s
 
+src/subscriber.o: src/subscriber.cpp.o
+
+.PHONY : src/subscriber.o
+
+# target to build an object file
+src/subscriber.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o
+.PHONY : src/subscriber.cpp.o
+
+src/subscriber.i: src/subscriber.cpp.i
+
+.PHONY : src/subscriber.i
+
+# target to preprocess a source file
+src/subscriber.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.i
+.PHONY : src/subscriber.cpp.i
+
+src/subscriber.s: src/subscriber.cpp.s
+
+.PHONY : src/subscriber.s
+
+# target to generate assembly for a file
+src/subscriber.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.s
+.PHONY : src/subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,16 +258,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... list_install_components"
+	@echo "... install"
+	@echo "... subscriber"
 	@echo "... install/local"
-	@echo "... test"
 	@echo "... slave1_subscriber"
+	@echo "... test"
+	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... install"
 	@echo "... src/slave1_subscriber.o"
 	@echo "... src/slave1_subscriber.i"
 	@echo "... src/slave1_subscriber.s"
+	@echo "... src/subscriber.o"
+	@echo "... src/subscriber.i"
+	@echo "... src/subscriber.s"
 .PHONY : help
 
 

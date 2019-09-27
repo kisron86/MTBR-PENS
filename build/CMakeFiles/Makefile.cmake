@@ -773,6 +773,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "kevinpkg/CMakeFiles/stereoNode.dir/DependInfo.cmake"
   "kevinpkg/CMakeFiles/stereoCapture.dir/DependInfo.cmake"
   "kevinpkg/CMakeFiles/img_writer.dir/DependInfo.cmake"
+  "slave/CMakeFiles/subscriber.dir/DependInfo.cmake"
   "slave/CMakeFiles/slave1_subscriber.dir/DependInfo.cmake"
   "rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/DependInfo.cmake"
   "rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/DependInfo.cmake"
