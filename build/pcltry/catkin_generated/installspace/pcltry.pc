@@ -1,0 +1,8 @@
+prefix=/home/kisron/catkin_workspace/install
+
+Name: pcltry
+Description: Description of pcltry
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kisron/catkin_workspace/install/lib 
+Requires: 
