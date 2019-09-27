@@ -5,7 +5,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 //#include <opencv2/contrib/contrib.hpp>
 #include <stdio.h>
-
+//kalibrasi apaan nih
 using namespace cv;
 using namespace std;
 
