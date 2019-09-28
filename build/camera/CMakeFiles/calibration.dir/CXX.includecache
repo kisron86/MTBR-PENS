@@ -17,7 +17,25 @@ opencv2/highgui/highgui.hpp
 -
 opencv2/imgproc/imgproc.hpp
 -
+opencv2/contrib/contrib.hpp
+-
 stdio.h
+-
+opencv2/core/core.hpp
+/home/kisron/catkin_workspace/src/camera/src/opencv2/core/core.hpp
+opencv2/imgproc/imgproc.hpp
+/home/kisron/catkin_workspace/src/camera/src/opencv2/imgproc/imgproc.hpp
+opencv2/calib3d/calib3d.hpp
+/home/kisron/catkin_workspace/src/camera/src/opencv2/calib3d/calib3d.hpp
+opencv2/highgui/highgui.hpp
+/home/kisron/catkin_workspace/src/camera/src/opencv2/highgui/highgui.hpp
+cctype
+-
+stdio.h
+-
+string.h
+-
+time.h
 -
 
 /opt/ros/melodic/include/ros/advertise_options.h

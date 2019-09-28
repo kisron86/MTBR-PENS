@@ -1416,19 +1416,6 @@ sensor_msgs_generate_messages_eus/fast:
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named calibration
-
-# Build rule for target.
-calibration: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 calibration
-.PHONY : calibration
-
-# fast build rule for target.
-calibration/fast:
-	$(MAKE) -f camera/CMakeFiles/calibration.dir/build.make camera/CMakeFiles/calibration.dir/build
-.PHONY : calibration/fast
-
-#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -2551,7 +2538,6 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... calibration"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"

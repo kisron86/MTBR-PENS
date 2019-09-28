@@ -198,7 +198,6 @@
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/nodelet_generate_messages_lisp.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir
-/home/kisron/catkin_workspace/build/camera/CMakeFiles/calibration.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/std_msgs_generate_messages_lisp.dir

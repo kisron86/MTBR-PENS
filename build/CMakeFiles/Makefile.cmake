@@ -717,7 +717,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake"
   "camera/CMakeFiles/nodelet_generate_messages_lisp.dir/DependInfo.cmake"
   "camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake"
-  "camera/CMakeFiles/calibration.dir/DependInfo.cmake"
   "camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake"
   "camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"

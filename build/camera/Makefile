@@ -663,21 +663,6 @@ sensor_msgs_generate_messages_eus/fast:
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-camera/CMakeFiles/calibration.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/calibration.dir/rule
-.PHONY : camera/CMakeFiles/calibration.dir/rule
-
-# Convenience name for target.
-calibration: camera/CMakeFiles/calibration.dir/rule
-
-.PHONY : calibration
-
-# fast build rule for target.
-calibration/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/calibration.dir/build.make camera/CMakeFiles/calibration.dir/build
-.PHONY : calibration/fast
-
-# Convenience name for target.
 camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
@@ -1457,33 +1442,6 @@ tf2_msgs_generate_messages_nodejs/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
-src/calibration.o: src/calibration.cpp.o
-
-.PHONY : src/calibration.o
-
-# target to build an object file
-src/calibration.cpp.o:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/calibration.dir/build.make camera/CMakeFiles/calibration.dir/src/calibration.cpp.o
-.PHONY : src/calibration.cpp.o
-
-src/calibration.i: src/calibration.cpp.i
-
-.PHONY : src/calibration.i
-
-# target to preprocess a source file
-src/calibration.cpp.i:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/calibration.dir/build.make camera/CMakeFiles/calibration.dir/src/calibration.cpp.i
-.PHONY : src/calibration.cpp.i
-
-src/calibration.s: src/calibration.cpp.s
-
-.PHONY : src/calibration.s
-
-# target to generate assembly for a file
-src/calibration.cpp.s:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/calibration.dir/build.make camera/CMakeFiles/calibration.dir/src/calibration.cpp.s
-.PHONY : src/calibration.cpp.s
-
 src/coba_pcl.o: src/coba_pcl.cpp.o
 
 .PHONY : src/coba_pcl.o
@@ -1718,7 +1676,6 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... calibration"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -1772,9 +1729,6 @@ help:
 	@echo "... actionlib_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
-	@echo "... src/calibration.o"
-	@echo "... src/calibration.i"
-	@echo "... src/calibration.s"
 	@echo "... src/coba_pcl.o"
 	@echo "... src/coba_pcl.i"
 	@echo "... src/coba_pcl.s"

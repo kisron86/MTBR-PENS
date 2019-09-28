@@ -11,7 +11,7 @@ char fpsr_string[10];
 char fpsl_string[10];
 
 int main(){
-  VideoCapture capr(4);  // kamera kanan
+  VideoCapture capr(2);  // kamera kanan
   capr.set(CV_CAP_PROP_FRAME_HEIGHT, 240);
   capr.set(CV_CAP_PROP_FRAME_WIDTH, 320);
 
