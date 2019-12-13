@@ -1,0 +1,8 @@
+prefix=/home/kisron/catkin_workspace/devel
+
+Name: simulasi
+Description: Description of simulasi
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kisron/catkin_workspace/devel/lib 
+Requires: roscpp rospy std_msgs actionlib actionlib_msgs message_runtime

@@ -11,13 +11,12 @@ find_package(catkin REQUIRED COMPONENTS
     roscpp
     std_msgs
     image_transport
-    OpenCV
     sensor_msgs
     cv_bridge
     pcl_ros
     pcl_conversions
 )
-find_package(OpenCV)
+#find_package(OpenCV)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -242,6 +241,6 @@ add_executable(coba_pcl src/coba_pcl.cpp)
 add_dependencies(coba_pcl camera)
 target_link_libraries(coba_pcl ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS} ${PCL_LIBRARIES})
 
-#add_executable(calibration src/calibration.cpp)
-#add_dependencies(calibration camera)
-#target_link_libraries(calibration ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+#add_executable(depth_code src/depth_code.cpp)
+#add_dependencies(depth_code camera)
+#target_link_libraries(depth_code ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})

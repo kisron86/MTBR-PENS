@@ -95,8 +95,7 @@ stereoNode_EXTERNAL_OBJECTS =
 /home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /opt/ros/melodic/lib/libpcl_ros_filters.so
-/home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /opt/ros/melodic/lib/libpcl_ros_io.so
+/home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /opt/ros/melodic/lib/libpcl_ros_filter.so
 /home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /opt/ros/melodic/lib/libpcl_ros_tf.so
 /home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
 /home/kisron/catkin_workspace/devel/lib/kevinpkg/stereoNode: /usr/lib/x86_64-linux-gnu/libpcl_search.so
