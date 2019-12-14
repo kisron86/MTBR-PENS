@@ -987,6 +987,19 @@ _run_tests_rosserial_client_gtest_subscriber_test/fast:
 .PHONY : _run_tests_rosserial_client_gtest_subscriber_test/fast
 
 #=============================================================================
+# Target rules for targets named trash_detection
+
+# Build rule for target.
+trash_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trash_detection
+.PHONY : trash_detection
+
+# fast build rule for target.
+trash_detection/fast:
+	$(MAKE) -f camera/CMakeFiles/trash_detection.dir/build.make camera/CMakeFiles/trash_detection.dir/build
+.PHONY : trash_detection/fast
+
+#=============================================================================
 # Target rules for targets named img_stream_subscriber
 
 # Build rule for target.
@@ -2531,6 +2544,7 @@ help:
 	@echo "... clean_test_results_rosserial_client"
 	@echo "... subscriber_test"
 	@echo "... _run_tests_rosserial_client_gtest_subscriber_test"
+	@echo "... trash_detection"
 	@echo "... img_stream_subscriber"
 	@echo "... img_stream_publisher"
 	@echo "... img_subscriber"

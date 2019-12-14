@@ -163,6 +163,7 @@
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/install/local.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/list_install_components.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/test.dir
+/home/kisron/catkin_workspace/build/camera/CMakeFiles/trash_detection.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/img_stream_subscriber.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/img_stream_publisher.dir
 /home/kisron/catkin_workspace/build/camera/CMakeFiles/img_subscriber.dir

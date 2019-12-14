@@ -696,6 +696,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "rosserial/rosserial_client/CMakeFiles/clean_test_results_rosserial_client.dir/DependInfo.cmake"
   "rosserial/rosserial_client/CMakeFiles/subscriber_test.dir/DependInfo.cmake"
   "rosserial/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest_subscriber_test.dir/DependInfo.cmake"
+  "camera/CMakeFiles/trash_detection.dir/DependInfo.cmake"
   "camera/CMakeFiles/img_stream_subscriber.dir/DependInfo.cmake"
   "camera/CMakeFiles/img_stream_publisher.dir/DependInfo.cmake"
   "camera/CMakeFiles/img_subscriber.dir/DependInfo.cmake"

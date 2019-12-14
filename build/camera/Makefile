@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+camera/CMakeFiles/trash_detection.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/trash_detection.dir/rule
+.PHONY : camera/CMakeFiles/trash_detection.dir/rule
+
+# Convenience name for target.
+trash_detection: camera/CMakeFiles/trash_detection.dir/rule
+
+.PHONY : trash_detection
+
+# fast build rule for target.
+trash_detection/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/trash_detection.dir/build.make camera/CMakeFiles/trash_detection.dir/build
+.PHONY : trash_detection/fast
+
+# Convenience name for target.
 camera/CMakeFiles/img_stream_subscriber.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/img_stream_subscriber.dir/rule
 .PHONY : camera/CMakeFiles/img_stream_subscriber.dir/rule
@@ -1631,6 +1646,33 @@ src/open_camera_1.cpp.s:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/open_camera_1.dir/build.make camera/CMakeFiles/open_camera_1.dir/src/open_camera_1.cpp.s
 .PHONY : src/open_camera_1.cpp.s
 
+src/trash_detection.o: src/trash_detection.cpp.o
+
+.PHONY : src/trash_detection.o
+
+# target to build an object file
+src/trash_detection.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/trash_detection.dir/build.make camera/CMakeFiles/trash_detection.dir/src/trash_detection.cpp.o
+.PHONY : src/trash_detection.cpp.o
+
+src/trash_detection.i: src/trash_detection.cpp.i
+
+.PHONY : src/trash_detection.i
+
+# target to preprocess a source file
+src/trash_detection.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/trash_detection.dir/build.make camera/CMakeFiles/trash_detection.dir/src/trash_detection.cpp.i
+.PHONY : src/trash_detection.cpp.i
+
+src/trash_detection.s: src/trash_detection.cpp.s
+
+.PHONY : src/trash_detection.s
+
+# target to generate assembly for a file
+src/trash_detection.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f camera/CMakeFiles/trash_detection.dir/build.make camera/CMakeFiles/trash_detection.dir/src/trash_detection.cpp.s
+.PHONY : src/trash_detection.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1641,6 +1683,7 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... trash_detection"
 	@echo "... img_stream_subscriber"
 	@echo "... img_stream_publisher"
 	@echo "... img_subscriber"
@@ -1750,6 +1793,9 @@ help:
 	@echo "... src/open_camera_1.o"
 	@echo "... src/open_camera_1.i"
 	@echo "... src/open_camera_1.s"
+	@echo "... src/trash_detection.o"
+	@echo "... src/trash_detection.i"
+	@echo "... src/trash_detection.s"
 .PHONY : help
 
 
