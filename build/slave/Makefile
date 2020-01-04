@@ -80,6 +80,27 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -103,16 +124,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -123,17 +134,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -183,6 +183,36 @@ subscriber/fast:
 .PHONY : subscriber/fast
 
 # Convenience name for target.
+slave/CMakeFiles/publisher.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/publisher.dir/rule
+.PHONY : slave/CMakeFiles/publisher.dir/rule
+
+# Convenience name for target.
+publisher: slave/CMakeFiles/publisher.dir/rule
+
+.PHONY : publisher
+
+# fast build rule for target.
+publisher/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
+
+# Convenience name for target.
+slave/CMakeFiles/read_sensor.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/read_sensor.dir/rule
+.PHONY : slave/CMakeFiles/read_sensor.dir/rule
+
+# Convenience name for target.
+read_sensor: slave/CMakeFiles/read_sensor.dir/rule
+
+.PHONY : read_sensor
+
+# fast build rule for target.
+read_sensor/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/read_sensor.dir/build.make slave/CMakeFiles/read_sensor.dir/build
+.PHONY : read_sensor/fast
+
+# Convenience name for target.
 slave/CMakeFiles/slave1_subscriber.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/slave1_subscriber.dir/rule
 .PHONY : slave/CMakeFiles/slave1_subscriber.dir/rule
@@ -196,6 +226,102 @@ slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/rule
 slave1_subscriber/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
 .PHONY : slave1_subscriber/fast
+
+# Convenience name for target.
+slave/CMakeFiles/data_conversion.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/data_conversion.dir/rule
+.PHONY : slave/CMakeFiles/data_conversion.dir/rule
+
+# Convenience name for target.
+data_conversion: slave/CMakeFiles/data_conversion.dir/rule
+
+.PHONY : data_conversion
+
+# fast build rule for target.
+data_conversion/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/build
+.PHONY : data_conversion/fast
+
+src/data_conversion.o: src/data_conversion.cpp.o
+
+.PHONY : src/data_conversion.o
+
+# target to build an object file
+src/data_conversion.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/src/data_conversion.cpp.o
+.PHONY : src/data_conversion.cpp.o
+
+src/data_conversion.i: src/data_conversion.cpp.i
+
+.PHONY : src/data_conversion.i
+
+# target to preprocess a source file
+src/data_conversion.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/src/data_conversion.cpp.i
+.PHONY : src/data_conversion.cpp.i
+
+src/data_conversion.s: src/data_conversion.cpp.s
+
+.PHONY : src/data_conversion.s
+
+# target to generate assembly for a file
+src/data_conversion.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/src/data_conversion.cpp.s
+.PHONY : src/data_conversion.cpp.s
+
+src/publisher.o: src/publisher.cpp.o
+
+.PHONY : src/publisher.o
+
+# target to build an object file
+src/publisher.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/src/publisher.cpp.o
+.PHONY : src/publisher.cpp.o
+
+src/publisher.i: src/publisher.cpp.i
+
+.PHONY : src/publisher.i
+
+# target to preprocess a source file
+src/publisher.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/src/publisher.cpp.i
+.PHONY : src/publisher.cpp.i
+
+src/publisher.s: src/publisher.cpp.s
+
+.PHONY : src/publisher.s
+
+# target to generate assembly for a file
+src/publisher.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/src/publisher.cpp.s
+.PHONY : src/publisher.cpp.s
+
+src/read_sensor.o: src/read_sensor.cpp.o
+
+.PHONY : src/read_sensor.o
+
+# target to build an object file
+src/read_sensor.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/read_sensor.dir/build.make slave/CMakeFiles/read_sensor.dir/src/read_sensor.cpp.o
+.PHONY : src/read_sensor.cpp.o
+
+src/read_sensor.i: src/read_sensor.cpp.i
+
+.PHONY : src/read_sensor.i
+
+# target to preprocess a source file
+src/read_sensor.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/read_sensor.dir/build.make slave/CMakeFiles/read_sensor.dir/src/read_sensor.cpp.i
+.PHONY : src/read_sensor.cpp.i
+
+src/read_sensor.s: src/read_sensor.cpp.s
+
+.PHONY : src/read_sensor.s
+
+# target to generate assembly for a file
+src/read_sensor.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/read_sensor.dir/build.make slave/CMakeFiles/read_sensor.dir/src/read_sensor.cpp.s
+.PHONY : src/read_sensor.cpp.s
 
 src/slave1_subscriber.o: src/slave1_subscriber.cpp.o
 
@@ -259,13 +385,25 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
 	@echo "... subscriber"
+	@echo "... publisher"
+	@echo "... read_sensor"
 	@echo "... install/local"
 	@echo "... slave1_subscriber"
 	@echo "... test"
-	@echo "... list_install_components"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
+	@echo "... data_conversion"
+	@echo "... src/data_conversion.o"
+	@echo "... src/data_conversion.i"
+	@echo "... src/data_conversion.s"
+	@echo "... src/publisher.o"
+	@echo "... src/publisher.i"
+	@echo "... src/publisher.s"
+	@echo "... src/read_sensor.o"
+	@echo "... src/read_sensor.i"
+	@echo "... src/read_sensor.s"
 	@echo "... src/slave1_subscriber.o"
 	@echo "... src/slave1_subscriber.i"
 	@echo "... src/slave1_subscriber.s"

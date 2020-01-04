@@ -58,6 +58,10 @@ slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/r
 slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/rosserial_arduino/Adc.h
+slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/sensor_msgs/Range.h
+slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/std_msgs/Float64.h
+slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/std_msgs/Header.h
 slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h

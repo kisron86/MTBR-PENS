@@ -22,3 +22,15 @@ target_link_libraries(slave1_subscriber ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} 
 add_executable(subscriber src/subscriber.cpp)
 add_dependencies(subscriber slave)
 target_link_libraries(subscriber ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(publisher src/publisher.cpp)
+add_dependencies(publisher slave)
+target_link_libraries(publisher ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(read_sensor src/read_sensor.cpp)
+add_dependencies(read_sensor slave)
+target_link_libraries(read_sensor ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(data_conversion src/data_conversion.cpp)
+add_dependencies(data_conversion slave)
+target_link_libraries(data_conversion ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})

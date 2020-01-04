@@ -107,11 +107,21 @@ void compute_stereo(cv::Mat& imL, cv::Mat& imR){
   /* F is the focal length in pixels,
    * c is the optical center in pixel
    * T is the distance between both cameras (baseline) */
-  double f = 324.731572;
-  double cx = 425.855509; //optical center kiri
-  double cx1 = 430.622661;  //kanan
-  double cy = 124.419332;
-  double Tx = -60.00; //baseline
+  double f = 402.51233;
+  double cx = 157.5299; //optical center kiri
+  double cx1 = 157.8182;  //kanan
+  double cy = 157.6799;
+  double Tx = 60.00; //baseline
+
+  cv::Mat cm1, cm2,d1,d2;
+  cv::FileStorage fs("myCalibration.xml",cv::FileStorage::READ);
+  fs["CM1"] >> cm1;
+  fs["CM2"] >> cm2;
+  fs["D1"] >> d1;
+  fs["D2"] >> d2;
+
+  //cv::undistort(img1,outImg1,cm1,d1);
+  //cv::undistort(img2,outImg2,cm2,d2);
 
   cv::Mat Q = cv::Mat(4,4, CV_64F, double(0));
   Q.at<double>(0,0) = 1.0;

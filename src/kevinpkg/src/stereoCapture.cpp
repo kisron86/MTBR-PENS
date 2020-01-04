@@ -14,7 +14,7 @@ int main(int argc, char **argv){
   ros::NodeHandle nh;
 
   cv::VideoCapture capr(0);  // kamera kanan
-  cv::VideoCapture capl(2);  // kamera kiri
+  cv::VideoCapture capl(4);  // kamera kiri
 
   capr.set(CV_CAP_PROP_FRAME_HEIGHT, 240);
   capr.set(CV_CAP_PROP_FRAME_WIDTH, 320);

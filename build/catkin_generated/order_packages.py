@@ -2,4 +2,4 @@
 source_root_dir = "/home/kisron/catkin_workspace/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/kisron/catkin_workspace/devel;/opt/ros/melodic".split(';') if "/home/kisron/catkin_workspace/devel;/opt/ros/melodic" != "" else []
+underlay_workspaces = "/opt/serial;/home/kisron/catkin_workspace/devel;/opt/ros/melodic".split(';') if "/opt/serial;/home/kisron/catkin_workspace/devel;/opt/ros/melodic" != "" else []
