@@ -26,7 +26,7 @@ void Baca_adc(const rosserial_arduino::Adc::ConstPtr msg2)
     else if (v_motor < 12.50 && v_motor > 12.40){ persen_v_mtr = 90; }
     else if (v_motor < 12.60&& v_motor > 12.50){ persen_v_mtr = 100; }
     else { persen_v_mtr = 0; }
-  printf("v_mtr : %d persen\n",persen_v_mtr);
+  printf("v_mtr : %d persen ",persen_v_mtr);
 
   if (v_pc < 11.60){ persen_v_pc = 0; }
     else if (v_pc < 11.70 && v_pc > 11.60){ persen_v_pc = 10; }
@@ -40,7 +40,7 @@ void Baca_adc(const rosserial_arduino::Adc::ConstPtr msg2)
     else if (v_pc < 12.50 && v_pc > 12.40){ persen_v_pc = 90; }
     else if (v_pc < 12.60&& v_pc > 12.50){ persen_v_pc = 100; }
     else { persen_v_pc = 0; }
-    printf("v_pc : %d persen\n",persen_v_pc);
+    printf("v_pc : %d persen ",persen_v_pc);
 }
 void Baca_jarak(const sensor_msgs::Range::ConstPtr& msg)
 {

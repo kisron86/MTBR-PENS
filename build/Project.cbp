@@ -2763,8 +2763,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="subscriber">
-				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/subscriber" prefix_auto="0" extension_auto="0"/>
+			<Target title="slave1_subscriber">
+				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -2785,14 +2785,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 subscriber"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 slave1_subscriber"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="subscriber/fast">
-				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/subscriber" prefix_auto="0" extension_auto="0"/>
+			<Target title="slave1_subscriber/fast">
+				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -2813,7 +2813,63 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 subscriber/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 slave1_subscriber/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prediction_system">
+				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/prediction_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;slave&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/opt/ros/melodic/include"/>
+					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 prediction_system"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prediction_system/fast">
+				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/prediction_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;slave&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/opt/ros/melodic/include"/>
+					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 prediction_system/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2931,62 +2987,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="slave1_subscriber">
-				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
-					<Add option="-DROS_PACKAGE_NAME=&quot;slave&quot;"/>
-					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
-					<Add directory="/opt/ros/melodic/include"/>
-					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 slave1_subscriber"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="slave1_subscriber/fast">
-				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
-					<Add option="-DROS_PACKAGE_NAME=&quot;slave&quot;"/>
-					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
-					<Add directory="/opt/ros/melodic/include"/>
-					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 slave1_subscriber/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="data_conversion">
 				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/data_conversion" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
@@ -3038,6 +3038,62 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 data_conversion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decision_making_system">
+				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/decision_making_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;slave&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/opt/ros/melodic/include"/>
+					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 decision_making_system"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decision_making_system/fast">
+				<Option output="/home/kisron/catkin_workspace/devel/lib/slave/decision_making_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kisron/catkin_workspace/devel/lib/slave"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;slave&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/opt/ros/melodic/include"/>
+					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 decision_making_system/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/slave/Makefile&quot;  VERBOSE=1 clean"/>
@@ -3582,6 +3638,12 @@
 		<Unit filename="/home/kisron/catkin_workspace/src/slave/src/data_conversion.cpp">
 			<Option target="data_conversion"/>
 		</Unit>
+		<Unit filename="/home/kisron/catkin_workspace/src/slave/src/decision_making_system.cpp">
+			<Option target="decision_making_system"/>
+		</Unit>
+		<Unit filename="/home/kisron/catkin_workspace/src/slave/src/prediction_system.cpp">
+			<Option target="prediction_system"/>
+		</Unit>
 		<Unit filename="/home/kisron/catkin_workspace/src/slave/src/publisher.cpp">
 			<Option target="publisher"/>
 		</Unit>
@@ -3590,9 +3652,6 @@
 		</Unit>
 		<Unit filename="/home/kisron/catkin_workspace/src/slave/src/slave1_subscriber.cpp">
 			<Option target="slave1_subscriber"/>
-		</Unit>
-		<Unit filename="/home/kisron/catkin_workspace/src/slave/src/subscriber.cpp">
-			<Option target="subscriber"/>
 		</Unit>
 		<Unit filename="/usr/src/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>

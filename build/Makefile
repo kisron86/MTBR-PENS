@@ -2378,17 +2378,30 @@ inverskinematic/fast:
 .PHONY : inverskinematic/fast
 
 #=============================================================================
-# Target rules for targets named subscriber
+# Target rules for targets named slave1_subscriber
 
 # Build rule for target.
-subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber
-.PHONY : subscriber
+slave1_subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 slave1_subscriber
+.PHONY : slave1_subscriber
 
 # fast build rule for target.
-subscriber/fast:
-	$(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/build
-.PHONY : subscriber/fast
+slave1_subscriber/fast:
+	$(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
+.PHONY : slave1_subscriber/fast
+
+#=============================================================================
+# Target rules for targets named prediction_system
+
+# Build rule for target.
+prediction_system: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prediction_system
+.PHONY : prediction_system
+
+# fast build rule for target.
+prediction_system/fast:
+	$(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/build
+.PHONY : prediction_system/fast
 
 #=============================================================================
 # Target rules for targets named publisher
@@ -2417,19 +2430,6 @@ read_sensor/fast:
 .PHONY : read_sensor/fast
 
 #=============================================================================
-# Target rules for targets named slave1_subscriber
-
-# Build rule for target.
-slave1_subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 slave1_subscriber
-.PHONY : slave1_subscriber
-
-# fast build rule for target.
-slave1_subscriber/fast:
-	$(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
-.PHONY : slave1_subscriber/fast
-
-#=============================================================================
 # Target rules for targets named data_conversion
 
 # Build rule for target.
@@ -2441,6 +2441,19 @@ data_conversion: cmake_check_build_system
 data_conversion/fast:
 	$(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/build
 .PHONY : data_conversion/fast
+
+#=============================================================================
+# Target rules for targets named decision_making_system
+
+# Build rule for target.
+decision_making_system: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 decision_making_system
+.PHONY : decision_making_system
+
+# fast build rule for target.
+decision_making_system/fast:
+	$(MAKE) -f slave/CMakeFiles/decision_making_system.dir/build.make slave/CMakeFiles/decision_making_system.dir/build
+.PHONY : decision_making_system/fast
 
 #=============================================================================
 # Target rules for targets named rosserial_server_socket_node
@@ -2859,11 +2872,12 @@ help:
 	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... fuzzybicycle"
 	@echo "... inverskinematic"
-	@echo "... subscriber"
+	@echo "... slave1_subscriber"
+	@echo "... prediction_system"
 	@echo "... publisher"
 	@echo "... read_sensor"
-	@echo "... slave1_subscriber"
 	@echo "... data_conversion"
+	@echo "... decision_making_system"
 	@echo "... rosserial_server_socket_node"
 	@echo "... rosserial_server_udp_socket_node"
 	@echo "... rosserial_server_serial_node"

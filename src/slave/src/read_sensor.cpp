@@ -40,7 +40,6 @@ int main(int argc, char **argv)
   chatter_pub = pub.advertise<sensor_msgs::Range>("data_jarak",1000);
   ros::Rate loop_rate(10);
 
-  //ros::spin();
   while (ros::ok())
   {
     sensor_msgs::Range data;
@@ -50,7 +49,7 @@ int main(int argc, char **argv)
     data2.adc1 = v_pc;
     data2.adc2 = i_motor;
     data2.adc3 = i_pc;
-    printf("jarak:%.2f\n",data.range);
+    //printf("jarak:%.2f\n",data.range);
     chatter_pub.publish(data);
     chatter_pub2.publish(data2);
     ros::spinOnce();

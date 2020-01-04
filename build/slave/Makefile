@@ -168,19 +168,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-slave/CMakeFiles/subscriber.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/subscriber.dir/rule
-.PHONY : slave/CMakeFiles/subscriber.dir/rule
+slave/CMakeFiles/slave1_subscriber.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/slave1_subscriber.dir/rule
+.PHONY : slave/CMakeFiles/slave1_subscriber.dir/rule
 
 # Convenience name for target.
-subscriber: slave/CMakeFiles/subscriber.dir/rule
+slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/rule
 
-.PHONY : subscriber
+.PHONY : slave1_subscriber
 
 # fast build rule for target.
-subscriber/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/build
-.PHONY : subscriber/fast
+slave1_subscriber/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
+.PHONY : slave1_subscriber/fast
+
+# Convenience name for target.
+slave/CMakeFiles/prediction_system.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/prediction_system.dir/rule
+.PHONY : slave/CMakeFiles/prediction_system.dir/rule
+
+# Convenience name for target.
+prediction_system: slave/CMakeFiles/prediction_system.dir/rule
+
+.PHONY : prediction_system
+
+# fast build rule for target.
+prediction_system/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/build
+.PHONY : prediction_system/fast
 
 # Convenience name for target.
 slave/CMakeFiles/publisher.dir/rule:
@@ -213,21 +228,6 @@ read_sensor/fast:
 .PHONY : read_sensor/fast
 
 # Convenience name for target.
-slave/CMakeFiles/slave1_subscriber.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/slave1_subscriber.dir/rule
-.PHONY : slave/CMakeFiles/slave1_subscriber.dir/rule
-
-# Convenience name for target.
-slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/rule
-
-.PHONY : slave1_subscriber
-
-# fast build rule for target.
-slave1_subscriber/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
-.PHONY : slave1_subscriber/fast
-
-# Convenience name for target.
 slave/CMakeFiles/data_conversion.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/data_conversion.dir/rule
 .PHONY : slave/CMakeFiles/data_conversion.dir/rule
@@ -241,6 +241,21 @@ data_conversion: slave/CMakeFiles/data_conversion.dir/rule
 data_conversion/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/build
 .PHONY : data_conversion/fast
+
+# Convenience name for target.
+slave/CMakeFiles/decision_making_system.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/decision_making_system.dir/rule
+.PHONY : slave/CMakeFiles/decision_making_system.dir/rule
+
+# Convenience name for target.
+decision_making_system: slave/CMakeFiles/decision_making_system.dir/rule
+
+.PHONY : decision_making_system
+
+# fast build rule for target.
+decision_making_system/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/decision_making_system.dir/build.make slave/CMakeFiles/decision_making_system.dir/build
+.PHONY : decision_making_system/fast
 
 src/data_conversion.o: src/data_conversion.cpp.o
 
@@ -268,6 +283,60 @@ src/data_conversion.s: src/data_conversion.cpp.s
 src/data_conversion.cpp.s:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/data_conversion.dir/build.make slave/CMakeFiles/data_conversion.dir/src/data_conversion.cpp.s
 .PHONY : src/data_conversion.cpp.s
+
+src/decision_making_system.o: src/decision_making_system.cpp.o
+
+.PHONY : src/decision_making_system.o
+
+# target to build an object file
+src/decision_making_system.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/decision_making_system.dir/build.make slave/CMakeFiles/decision_making_system.dir/src/decision_making_system.cpp.o
+.PHONY : src/decision_making_system.cpp.o
+
+src/decision_making_system.i: src/decision_making_system.cpp.i
+
+.PHONY : src/decision_making_system.i
+
+# target to preprocess a source file
+src/decision_making_system.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/decision_making_system.dir/build.make slave/CMakeFiles/decision_making_system.dir/src/decision_making_system.cpp.i
+.PHONY : src/decision_making_system.cpp.i
+
+src/decision_making_system.s: src/decision_making_system.cpp.s
+
+.PHONY : src/decision_making_system.s
+
+# target to generate assembly for a file
+src/decision_making_system.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/decision_making_system.dir/build.make slave/CMakeFiles/decision_making_system.dir/src/decision_making_system.cpp.s
+.PHONY : src/decision_making_system.cpp.s
+
+src/prediction_system.o: src/prediction_system.cpp.o
+
+.PHONY : src/prediction_system.o
+
+# target to build an object file
+src/prediction_system.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/src/prediction_system.cpp.o
+.PHONY : src/prediction_system.cpp.o
+
+src/prediction_system.i: src/prediction_system.cpp.i
+
+.PHONY : src/prediction_system.i
+
+# target to preprocess a source file
+src/prediction_system.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/src/prediction_system.cpp.i
+.PHONY : src/prediction_system.cpp.i
+
+src/prediction_system.s: src/prediction_system.cpp.s
+
+.PHONY : src/prediction_system.s
+
+# target to generate assembly for a file
+src/prediction_system.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/src/prediction_system.cpp.s
+.PHONY : src/prediction_system.cpp.s
 
 src/publisher.o: src/publisher.cpp.o
 
@@ -350,33 +419,6 @@ src/slave1_subscriber.cpp.s:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.s
 .PHONY : src/slave1_subscriber.cpp.s
 
-src/subscriber.o: src/subscriber.cpp.o
-
-.PHONY : src/subscriber.o
-
-# target to build an object file
-src/subscriber.cpp.o:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.o
-.PHONY : src/subscriber.cpp.o
-
-src/subscriber.i: src/subscriber.cpp.i
-
-.PHONY : src/subscriber.i
-
-# target to preprocess a source file
-src/subscriber.cpp.i:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.i
-.PHONY : src/subscriber.cpp.i
-
-src/subscriber.s: src/subscriber.cpp.s
-
-.PHONY : src/subscriber.s
-
-# target to generate assembly for a file
-src/subscriber.cpp.s:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/subscriber.dir/build.make slave/CMakeFiles/subscriber.dir/src/subscriber.cpp.s
-.PHONY : src/subscriber.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -387,17 +429,24 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... subscriber"
+	@echo "... install/local"
+	@echo "... test"
+	@echo "... slave1_subscriber"
+	@echo "... prediction_system"
 	@echo "... publisher"
 	@echo "... read_sensor"
-	@echo "... install/local"
-	@echo "... slave1_subscriber"
-	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... data_conversion"
+	@echo "... decision_making_system"
 	@echo "... src/data_conversion.o"
 	@echo "... src/data_conversion.i"
 	@echo "... src/data_conversion.s"
+	@echo "... src/decision_making_system.o"
+	@echo "... src/decision_making_system.i"
+	@echo "... src/decision_making_system.s"
+	@echo "... src/prediction_system.o"
+	@echo "... src/prediction_system.i"
+	@echo "... src/prediction_system.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
@@ -407,9 +456,6 @@ help:
 	@echo "... src/slave1_subscriber.o"
 	@echo "... src/slave1_subscriber.i"
 	@echo "... src/slave1_subscriber.s"
-	@echo "... src/subscriber.o"
-	@echo "... src/subscriber.i"
-	@echo "... src/subscriber.s"
 .PHONY : help
 
 
