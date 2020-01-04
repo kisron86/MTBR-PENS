@@ -7,12 +7,12 @@ static double jarakcm;
 static int persen_level, persen_v_mtr, persen_v_pc;
 static double v_motor, v_pc,i_motor,i_pc;
 
-void Baca_adc(const rosserial_arduino::Adc::ConstPtr msg)
+void Baca_adc(const rosserial_arduino::Adc::ConstPtr msg2)
 {
-  v_motor = msg->adc0;
-  v_pc = msg-> adc1;
-  i_motor = msg->adc2;
-  i_pc = msg->adc3;
+  v_motor = msg2->adc0;
+  v_pc = msg2-> adc1;
+  i_motor = msg2->adc2;
+  i_pc = msg2->adc3;
 
   if (v_motor < 11.60){ persen_v_mtr = 0; }
     else if (v_motor < 11.70 && v_motor > 11.60){ persen_v_mtr = 10; }
@@ -89,7 +89,7 @@ int main(int argc, char **argv)
   ros::init(argc, argv, "data_conversion");
   ros::NodeHandle nh;
   ros::Subscriber sub = nh.subscribe("data_jarak", 1000, Baca_jarak);
-  ros::Subscriber sub2 = nh.subscribe("adc_data", 1000, Baca_adc);
+  ros::Subscriber sub2 = nh.subscribe("data_adc", 1000, Baca_adc);
 
   ros::spin();
 

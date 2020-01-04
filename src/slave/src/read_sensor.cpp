@@ -31,8 +31,13 @@ int main(int argc, char **argv)
   ros::Subscriber sub1 = sub.subscribe("ultrasound", 1000, chatterCallback);
   ros::Subscriber sub2 = sub.subscribe("adc_data", 1000, chatterCallback2);
 
-  ros::Publisher chatter_pub = pub.advertise<sensor_msgs::Range>("data_jarak", 1000);
-  ros::Publisher chatter_pub2 = pub.advertise<sensor_msgs::Range>("data_adc", 1000);
+  ros::Publisher chatter_pub;
+  ros::Publisher chatter_pub2;
+  //ros::Publisher chatter_pub = pub.advertise<sensor_msgs::Range>("data_jarak", 1000);
+  //ros::Publisher chatter_pub2 = pub.advertise<sensor_msgs::Range>("data_adc", 1000);
+
+  chatter_pub2 = pub.advertise<rosserial_arduino::Adc>("data_adc", 1000);
+  chatter_pub = pub.advertise<sensor_msgs::Range>("data_jarak",1000);
   ros::Rate loop_rate(10);
 
   //ros::spin();
@@ -44,6 +49,7 @@ int main(int argc, char **argv)
     data2.adc0 = v_motor;
     data2.adc1 = v_pc;
     data2.adc2 = i_motor;
+    data2.adc3 = i_pc;
     printf("jarak:%.2f\n",data.range);
     chatter_pub.publish(data);
     chatter_pub2.publish(data2);
