@@ -206,10 +206,12 @@ include_directories(
 # catkin_add_nosetests(test)
 
 add_executable(targetPosisi1 src/robot1.cpp)
-add_dependencies(targetPosisi1 posisi_generate_messages_cpp)
+#add_dependencies(targetPosisi1 posisi_generate_messages_cpp)
+add_dependencies(targetPosisi1 simulasi)
 target_link_libraries(targetPosisi1 ${catkin_LIBRARIES})
 
 add_executable(targetPosisi2 src/robot2.cpp)
-add_dependencies(targetPosisi2 posisi_generate_messages_cpp)
+#add_dependencies(targetPosisi2 posisi_generate_messages_cpp)
+add_dependencies(targetPosisi2 simulasi)
 target_link_libraries(targetPosisi2 ${catkin_LIBRARIES})
 
