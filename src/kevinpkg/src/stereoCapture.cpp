@@ -13,7 +13,7 @@ int main(int argc, char **argv){
   ros::init(argc, argv, "stereoCapture");
   ros::NodeHandle nh;
 
-  cv::VideoCapture capr(0);  // kamera kanan
+  cv::VideoCapture capr(2);  // kamera kanan
   cv::VideoCapture capl(4);  // kamera kiri
 
   capr.set(CV_CAP_PROP_FRAME_HEIGHT, 240);
