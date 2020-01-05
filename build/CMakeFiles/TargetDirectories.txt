@@ -307,6 +307,13 @@
 /home/kisron/catkin_workspace/build/slave/CMakeFiles/edit_cache.dir
 /home/kisron/catkin_workspace/build/slave/CMakeFiles/data_conversion.dir
 /home/kisron/catkin_workspace/build/slave/CMakeFiles/decision_making_system.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/install/strip.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/edit_cache.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/list_install_components.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/test.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/install/local.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/rebuild_cache.dir
+/home/kisron/catkin_workspace/build/telegram/CMakeFiles/install.dir
 /home/kisron/catkin_workspace/build/rosserial/rosserial_server/CMakeFiles/install.dir
 /home/kisron/catkin_workspace/build/rosserial/rosserial_server/CMakeFiles/list_install_components.dir
 /home/kisron/catkin_workspace/build/rosserial/rosserial_server/CMakeFiles/install/strip.dir

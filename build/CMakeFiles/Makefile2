@@ -6361,6 +6361,24 @@ clean: slave/CMakeFiles/decision_making_system.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory telegram
+
+# Convenience name for "all" pass in the directory.
+telegram/all:
+
+.PHONY : telegram/all
+
+# Convenience name for "clean" pass in the directory.
+telegram/clean:
+
+.PHONY : telegram/clean
+
+# Convenience name for "preinstall" pass in the directory.
+telegram/preinstall:
+
+.PHONY : telegram/preinstall
+
+#=============================================================================
 # Directory level rules for directory rosserial/rosserial_server
 
 # Convenience name for "all" pass in the directory.

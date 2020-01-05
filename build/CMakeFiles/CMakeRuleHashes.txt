@@ -66,6 +66,7 @@ c04ada6e5ab6a842aea3449934cb9f74 /home/kisron/catkin_workspace/devel/share/roseu
 adaae85b3f15cd930cc93e8d4665b6dc /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l
 5df3ead2f92b6e68cbd5b6f03a07f19c /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestParam.l
 47cd46ef50c151204b80242f21bc24d4 /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l
+72ab94e28319301d3aa701ca954b0573 /home/kisron/catkin_workspace/devel/share/roseus/ros/telegram/manifest.l
 d70d672084da4a4ab68b11f0ff7444dd CMakeFiles/clean_test_results
 95472d819b2f9ae282cd4562babf2108 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts
 a12e886246fcb004b6248bd245e9a503 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_Num

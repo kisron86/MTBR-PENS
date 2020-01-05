@@ -38,3 +38,7 @@ target_link_libraries(data_conversion ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${
 add_executable(decision_making_system src/decision_making_system.cpp)
 add_dependencies(decision_making_system slave)
 target_link_libraries(decision_making_system ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})
+
+#add_executable(talker_py src/talker_py.py)
+#add_dependencies(talker_py slave)
+#target_link_libraries(talker_py ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})
