@@ -4,5 +4,5 @@ Name: kevinpkg
 Description: Description of kevinpkg
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/kisron/catkin_workspace/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 

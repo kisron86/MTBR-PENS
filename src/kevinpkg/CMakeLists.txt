@@ -41,3 +41,11 @@ target_link_libraries(stereoNode ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_L
 add_executable(img_writer src/img_writer.cpp)
 add_dependencies(img_writer kevinpkg)
 target_link_libraries(img_writer ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS} ${PCL_LIBRARIES})
+
+add_executable(detection1 src/detection1.cpp)
+add_dependencies(detection1 kevinpkg)
+target_link_libraries(detection1 ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS} ${PCL_LIBRARIES})
+
+add_executable(show_fps src/show_fps.cpp)
+add_dependencies(show_fps kevinpkg)
+target_link_libraries(show_fps ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS} ${PCL_LIBRARIES})

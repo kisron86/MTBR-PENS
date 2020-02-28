@@ -416,55 +416,55 @@ int main(int argc, char **argv)
   while(ros::ok){
 	
 	if(runqueue==0){
-		bicycle_path(0,-250,90,800,10,0);
+		bicycle_path(0,-200,90,800,10,0);
 		if(flagrun==1){flags=0;runqueue++;}
 		else flags=1;
 	}
 	if(runqueue==1){
-		bicycle_path(-250,-250,90,800,10,0);
+		bicycle_path(-200,-200,90,800,10,0);
 		if(flagrun==1){flags=0;runqueue++;}
 		else flags=1;
 	}
 	if(runqueue==2){
-		bicycle_path(-250,100,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}
-	if(runqueue==3){
-		bicycle_path(-100,300,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}
-	if(runqueue==4){
-		bicycle_path(0,400,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}
-	if(runqueue==5){
-		bicycle_path(100,400,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}
-	if(runqueue==6){
-		bicycle_path(250,300,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}
-	if(runqueue==7){
-		bicycle_path(100,200,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}	
-	if(runqueue==8){
-		bicycle_path(400,100,90,800,10,0);
-		if(flagrun==1){flags=0;runqueue++;}
-		else flags=1;
-	}
-	if(runqueue==9){
 		bicycle_path(0,0,90,800,10,0);
 		if(flagrun==1){flags=0;runqueue++;}
 		else flags=1;
 	}
+	// if(runqueue==3){
+	// 	bicycle_path(200,-200,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }
+	// if(runqueue==4){
+	// 	bicycle_path(0,400,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }
+	// if(runqueue==5){
+	// 	bicycle_path(100,400,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }
+	// if(runqueue==6){
+	// 	bicycle_path(250,300,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }
+	// if(runqueue==7){
+	// 	bicycle_path(100,200,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }	
+	// if(runqueue==8){
+	// 	bicycle_path(400,100,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }
+	// if(runqueue==9){
+	// 	bicycle_path(0,0,90,800,10,0);
+	// 	if(flagrun==1){flags=0;runqueue++;}
+	// 	else flags=1;
+	// }
 	
 
 

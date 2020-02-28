@@ -6,14 +6,19 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 
-//using namespace cv;
+using namespace cv;
 using namespace std;
+
+long frameCounter = 0;
+
+std::time_t timeBegin = std::time(0);
+int tick = 0;
 
 int main(int argc, char **argv){
   ros::init(argc, argv, "stereoCapture");
   ros::NodeHandle nh;
 
-  cv::VideoCapture capr(2);  // kamera kanan
+  cv::VideoCapture capr(0);  // kamera kanan
   cv::VideoCapture capl(4);  // kamera kiri
 
   capr.set(CV_CAP_PROP_FRAME_HEIGHT, 240);
@@ -57,6 +62,17 @@ int main(int argc, char **argv){
     msgl = cv_bridge::CvImage(std_msgs::Header(),"bgr8", framel).toImageMsg();
     imshow("Kamera_Kanan", framer);
     imshow("Kamera_Kiri", framel);
+    frameCounter++;
+
+    std::time_t timeNow = std::time(0) - timeBegin;
+
+    if (timeNow - tick >= 1)
+    {
+        tick++;
+        cout << "Frames per second: " << frameCounter << endl;
+        frameCounter = 0;
+    }
+
     pubr.publish(msgr);
     publ.publish(msgl);
 

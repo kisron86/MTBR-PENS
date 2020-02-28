@@ -1039,6 +1039,12 @@ telegram_BINARY_DIR:STATIC=/home/kisron/catkin_workspace/build/telegram
 //Value Computed by CMake
 telegram_SOURCE_DIR:STATIC=/home/kisron/catkin_workspace/src/telegram
 
+//Value Computed by CMake
+telegram_robot_BINARY_DIR:STATIC=/home/kisron/catkin_workspace/build/telegram_robot
+
+//Value Computed by CMake
+telegram_robot_SOURCE_DIR:STATIC=/home/kisron/catkin_workspace/src/telegram_robot
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/melodic/share/tf2/cmake
 
@@ -1230,7 +1236,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

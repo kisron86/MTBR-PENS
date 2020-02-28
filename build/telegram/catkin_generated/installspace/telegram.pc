@@ -4,5 +4,5 @@ Name: telegram
 Description: Description of telegram
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/kisron/catkin_workspace/install/lib 
+Libs: -L${prefix}/lib 
 Requires: 

@@ -798,6 +798,21 @@ pcl_msgs_generate_messages_py/fast:
 .PHONY : pcl_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+kevinpkg/CMakeFiles/show_fps.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 kevinpkg/CMakeFiles/show_fps.dir/rule
+.PHONY : kevinpkg/CMakeFiles/show_fps.dir/rule
+
+# Convenience name for target.
+show_fps: kevinpkg/CMakeFiles/show_fps.dir/rule
+
+.PHONY : show_fps
+
+# fast build rule for target.
+show_fps/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/show_fps.dir/build.make kevinpkg/CMakeFiles/show_fps.dir/build
+.PHONY : show_fps/fast
+
+# Convenience name for target.
 kevinpkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 kevinpkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : kevinpkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
@@ -856,6 +871,21 @@ sensor_msgs_generate_messages_py: kevinpkg/CMakeFiles/sensor_msgs_generate_messa
 sensor_msgs_generate_messages_py/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make kevinpkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+kevinpkg/CMakeFiles/detection1.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 kevinpkg/CMakeFiles/detection1.dir/rule
+.PHONY : kevinpkg/CMakeFiles/detection1.dir/rule
+
+# Convenience name for target.
+detection1: kevinpkg/CMakeFiles/detection1.dir/rule
+
+.PHONY : detection1
+
+# fast build rule for target.
+detection1/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/detection1.dir/build.make kevinpkg/CMakeFiles/detection1.dir/build
+.PHONY : detection1/fast
 
 # Convenience name for target.
 kevinpkg/CMakeFiles/topic_tools_generate_messages_py.dir/rule:
@@ -1157,6 +1187,33 @@ std_srvs_generate_messages_cpp/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make kevinpkg/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
+src/detection1.o: src/detection1.cpp.o
+
+.PHONY : src/detection1.o
+
+# target to build an object file
+src/detection1.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/detection1.dir/build.make kevinpkg/CMakeFiles/detection1.dir/src/detection1.cpp.o
+.PHONY : src/detection1.cpp.o
+
+src/detection1.i: src/detection1.cpp.i
+
+.PHONY : src/detection1.i
+
+# target to preprocess a source file
+src/detection1.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/detection1.dir/build.make kevinpkg/CMakeFiles/detection1.dir/src/detection1.cpp.i
+.PHONY : src/detection1.cpp.i
+
+src/detection1.s: src/detection1.cpp.s
+
+.PHONY : src/detection1.s
+
+# target to generate assembly for a file
+src/detection1.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/detection1.dir/build.make kevinpkg/CMakeFiles/detection1.dir/src/detection1.cpp.s
+.PHONY : src/detection1.cpp.s
+
 src/img_writer.o: src/img_writer.cpp.o
 
 .PHONY : src/img_writer.o
@@ -1183,6 +1240,33 @@ src/img_writer.s: src/img_writer.cpp.s
 src/img_writer.cpp.s:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/img_writer.dir/build.make kevinpkg/CMakeFiles/img_writer.dir/src/img_writer.cpp.s
 .PHONY : src/img_writer.cpp.s
+
+src/show_fps.o: src/show_fps.cpp.o
+
+.PHONY : src/show_fps.o
+
+# target to build an object file
+src/show_fps.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/show_fps.dir/build.make kevinpkg/CMakeFiles/show_fps.dir/src/show_fps.cpp.o
+.PHONY : src/show_fps.cpp.o
+
+src/show_fps.i: src/show_fps.cpp.i
+
+.PHONY : src/show_fps.i
+
+# target to preprocess a source file
+src/show_fps.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/show_fps.dir/build.make kevinpkg/CMakeFiles/show_fps.dir/src/show_fps.cpp.i
+.PHONY : src/show_fps.cpp.i
+
+src/show_fps.s: src/show_fps.cpp.s
+
+.PHONY : src/show_fps.s
+
+# target to generate assembly for a file
+src/show_fps.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f kevinpkg/CMakeFiles/show_fps.dir/build.make kevinpkg/CMakeFiles/show_fps.dir/src/show_fps.cpp.s
+.PHONY : src/show_fps.cpp.s
 
 src/stereoCapture.o: src/stereoCapture.cpp.o
 
@@ -1293,10 +1377,12 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
 	@echo "... install/local"
+	@echo "... show_fps"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... tf_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... detection1"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... actionlib_generate_messages_lisp"
@@ -1317,9 +1403,15 @@ help:
 	@echo "... pcl_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... src/detection1.o"
+	@echo "... src/detection1.i"
+	@echo "... src/detection1.s"
 	@echo "... src/img_writer.o"
 	@echo "... src/img_writer.i"
 	@echo "... src/img_writer.s"
+	@echo "... src/show_fps.o"
+	@echo "... src/show_fps.i"
+	@echo "... src/show_fps.s"
 	@echo "... src/stereoCapture.o"
 	@echo "... src/stereoCapture.i"
 	@echo "... src/stereoCapture.s"

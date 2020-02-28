@@ -1923,6 +1923,19 @@ pcl_msgs_generate_messages_py/fast:
 .PHONY : pcl_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named show_fps
+
+# Build rule for target.
+show_fps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 show_fps
+.PHONY : show_fps
+
+# fast build rule for target.
+show_fps/fast:
+	$(MAKE) -f kevinpkg/CMakeFiles/show_fps.dir/build.make kevinpkg/CMakeFiles/show_fps.dir/build
+.PHONY : show_fps/fast
+
+#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -1973,6 +1986,19 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 sensor_msgs_generate_messages_py/fast:
 	$(MAKE) -f kevinpkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make kevinpkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named detection1
+
+# Build rule for target.
+detection1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detection1
+.PHONY : detection1
+
+# fast build rule for target.
+detection1/fast:
+	$(MAKE) -f kevinpkg/CMakeFiles/detection1.dir/build.make kevinpkg/CMakeFiles/detection1.dir/build
+.PHONY : detection1/fast
 
 #=============================================================================
 # Target rules for targets named topic_tools_generate_messages_py
@@ -2811,10 +2837,12 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... show_fps"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... tf_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... detection1"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... actionlib_generate_messages_lisp"
