@@ -11,10 +11,10 @@
 				<Option working_dir="/home/kisron/catkin_workspace/build/omnirobot"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="odometry">
@@ -29,20 +29,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 odometry"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 odometry"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="odometry/fast">
@@ -57,60 +49,52 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 odometry/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 odometry/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/omnirobot"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/omnirobot"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/omnirobot"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/omnirobot"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pathfollowing">
@@ -125,20 +109,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 pathfollowing"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 pathfollowing"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pathfollowing/fast">
@@ -153,20 +129,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 pathfollowing/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 pathfollowing/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fuzzy">
@@ -181,20 +149,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzy"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzy"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fuzzy/fast">
@@ -209,20 +169,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzy/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzy/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bicycle">
@@ -237,20 +189,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 bicycle"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 bicycle"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bicycle/fast">
@@ -265,30 +209,22 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 bicycle/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 bicycle/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/omnirobot"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fuzzybicycle">
@@ -303,20 +239,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzybicycle"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzybicycle"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fuzzybicycle/fast">
@@ -331,20 +259,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzybicycle/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 fuzzybicycle/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="inverskinematic">
@@ -359,20 +279,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 inverskinematic"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 inverskinematic"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="inverskinematic/fast">
@@ -387,20 +299,12 @@
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 inverskinematic/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 inverskinematic/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/omnirobot/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

@@ -10,8 +10,8 @@ int fps1(void);
 int fps2(void);
 
 int fps2(){
-      cv::VideoCapture capr(2);  // kamera kanan
-      cv::VideoCapture capl(4);  // kamera kiri
+      cv::VideoCapture capr(0);  // kamera kanan
+      cv::VideoCapture capl(2);  // kamera kiri
 
       capr.set(CV_CAP_PROP_FRAME_HEIGHT, 240);
       capr.set(CV_CAP_PROP_FRAME_WIDTH, 320);

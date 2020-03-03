@@ -11,10 +11,10 @@
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stereoNode">
@@ -53,9 +53,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -65,19 +65,12 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoNode"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoNode"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stereoNode/fast">
@@ -116,9 +109,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -128,19 +121,12 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoNode/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoNode/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stereoCapture">
@@ -176,26 +162,19 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoCapture"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoCapture"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stereoCapture/fast">
@@ -231,256 +210,249 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoCapture/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 stereoCapture/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_srvs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_reconfigure_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="topic_tools_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pcl_ros_gencfg">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_ros_gencfg"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_ros_gencfg"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_reconfigure_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="topic_tools_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_reconfigure_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="img_writer">
@@ -519,9 +491,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -531,19 +503,12 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 img_writer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 img_writer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="img_writer/fast">
@@ -582,9 +547,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -594,179 +559,172 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 img_writer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 img_writer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_reconfigure_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bond_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nodelet_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pcl_msgs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_reconfigure_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nodelet_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bond_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pcl_msgs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="show_fps">
@@ -805,9 +763,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -817,19 +775,12 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 show_fps"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 show_fps"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="show_fps/fast">
@@ -868,9 +819,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -880,59 +831,52 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 show_fps/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 show_fps/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_srvs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="detection1">
@@ -971,9 +915,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -983,19 +927,12 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 detection1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 detection1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="detection1/fast">
@@ -1034,9 +971,9 @@
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
-					<Add directory="/usr/include/opencv"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/pcl-1.8"/>
 					<Add directory="/usr/include/ni"/>
@@ -1046,219 +983,212 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 detection1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 detection1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="topic_tools_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_reconfigure_gencfg">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_gencfg"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 dynamic_reconfigure_gencfg"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_srvs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bond_generate_messages_py">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nodelet_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nodelet_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 tf_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bond_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bond_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 bond_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="topic_tools_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_srvs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nodelet_topic_tools_gencfg">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_topic_tools_gencfg"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_topic_tools_gencfg"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pcl_msgs_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="topic_tools_generate_messages_eus">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 topic_tools_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pcl_msgs_generate_messages_lisp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nodelet_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 nodelet_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pcl_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 pcl_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_srvs_generate_messages_cpp">
 				<Option working_dir="/home/kisron/catkin_workspace/build/kevinpkg"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 std_srvs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/kevinpkg/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

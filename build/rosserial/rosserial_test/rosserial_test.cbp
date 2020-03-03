@@ -11,70 +11,70 @@
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_rosserial_test_rostest">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_rosserial_test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosserial_test_rosserial_lib">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 rosserial_test_rosserial_lib"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 rosserial_test_rosserial_lib"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_rosserial_test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_rosserial_test_rostest_test_rosserial_python_socket.test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest_test_rosserial_python_socket.test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest_test_rosserial_python_socket.test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_rosserial_test_rostest_test_rosserial_server_socket.test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest_test_rosserial_server_socket.test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest_test_rosserial_server_socket.test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosserial_test_publish_subscribe">
@@ -94,20 +94,12 @@
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 rosserial_test_publish_subscribe"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 rosserial_test_publish_subscribe"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosserial_test_publish_subscribe/fast">
@@ -127,80 +119,72 @@
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 rosserial_test_publish_subscribe/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 rosserial_test_publish_subscribe/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_rosserial_test_rostest_test_rosserial_server_socket.test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest_test_rosserial_server_socket.test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest_test_rosserial_server_socket.test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_rosserial_test_rostest_test_rosserial_server_serial.test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest_test_rosserial_server_serial.test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest_test_rosserial_server_serial.test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_rosserial_test_rostest_test_rosserial_server_serial.test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest_test_rosserial_server_serial.test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest_test_rosserial_server_serial.test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_rosserial_test_rostest_test_rosserial_python_socket.test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest_test_rosserial_python_socket.test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 run_tests_rosserial_test_rostest_test_rosserial_python_socket.test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_rosserial_test_rostest">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 _run_tests_rosserial_test_rostest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clean_test_results_rosserial_test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/rosserial/rosserial_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean_test_results_rosserial_test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean_test_results_rosserial_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/rosserial/rosserial_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

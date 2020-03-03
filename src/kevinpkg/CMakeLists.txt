@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(kevinpkg)
 
+set(OpenCV_DIR /usr/share/OpenCV/)
+
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
@@ -18,7 +20,7 @@ find_package(PCL REQUIRED)
 catkin_package(
 )
 
-include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 
 include_directories(
 # include

@@ -11,10 +11,10 @@
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial">
@@ -26,20 +26,12 @@
 				<Compiler>
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial/fast">
@@ -51,20 +43,12 @@
 				<Compiler>
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial_example">
@@ -76,20 +60,12 @@
 				<Compiler>
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial_example"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial_example"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial_example/fast">
@@ -101,50 +77,42 @@
 				<Compiler>
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial_example/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 serial_example/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_serial_gtest">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial_gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial_gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_serial_gtest">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial_gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial_gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_serial_gtest_serial-test-timer">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial_gtest_serial-test-timer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial_gtest_serial-test-timer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial-test">
@@ -157,20 +125,12 @@
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial-test/fast">
@@ -183,60 +143,52 @@
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_serial_gtest_serial-test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial_gtest_serial-test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial_gtest_serial-test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_serial">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_serial_gtest_serial-test">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial_gtest_serial-test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial_gtest_serial-test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clean_test_results_serial">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean_test_results_serial"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean_test_results_serial"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial-test-timer">
@@ -249,20 +201,12 @@
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test-timer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test-timer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial-test-timer/fast">
@@ -275,40 +219,32 @@
 					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
 					<Add directory="/home/kisron/catkin_workspace/src/serial/include"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test-timer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 serial-test-timer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests_serial_gtest_serial-test-timer">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial_gtest_serial-test-timer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 run_tests_serial_gtest_serial-test-timer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_run_tests_serial">
 				<Option working_dir="/home/kisron/catkin_workspace/build/serial/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 _run_tests_serial"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/serial/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

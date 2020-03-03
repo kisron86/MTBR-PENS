@@ -11,3 +11,5 @@ http://wjwwood.io/serial/
 Install telepot
 
 pip3 install mysql-connector-python-rf
+
+Install catkin tools
