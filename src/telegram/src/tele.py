@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import rospy
 
+import rospy
 import mysql.connector
 
 import sys
@@ -16,8 +16,9 @@ from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
 from telepot.loop import MessageLoop
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
 
+from std_msgs.msg import Int32
 
-if __name__=='__main__':
+def tele():
     connection = mysql.connector.connect(host='localhost',
                                             database='trash',
                                             user='phpmyadmin',
@@ -31,7 +32,9 @@ if __name__=='__main__':
         cursor.close()
         print("MySQL connection is closed")
 
-def handle(msg):
+
+if __name__=='__main__':
+    tele()
     global command
     chat_id = msg['chat']['id']
     command = msg['text']
@@ -50,7 +53,4 @@ def handle(msg):
     bot = telepot.Bot('576188757:AAESFfKu1T7jvZbASG6wpHf0m1WG0-xlOmQ')
     bot.message_loop(handle)
     print ('Menunggu Perintah ...')
-
-while 1:
-    time.sleep(10)
-pass
+    rospy.spin(10)
