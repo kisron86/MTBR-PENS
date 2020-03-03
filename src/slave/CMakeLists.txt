@@ -15,10 +15,6 @@ catkin_package(
 
 include_directories(${catkin_INCLUDE_DIRS})
 
-add_executable(slave1_subscriber src/slave1_subscriber.cpp)
-add_dependencies(slave1_subscriber slave)
-target_link_libraries(slave1_subscriber ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})
-
 add_executable(prediction_system src/prediction_system.cpp)
 add_dependencies(prediction_system slave)
 target_link_libraries(prediction_system ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${OpenCV_LIBS})

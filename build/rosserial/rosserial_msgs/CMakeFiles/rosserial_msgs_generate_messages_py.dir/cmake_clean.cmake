@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rosserial_msgs_generate_messages_py"
   "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py"
   "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py"
-  "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py"
-  "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py"
   "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py"
   "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py"
   "/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py"

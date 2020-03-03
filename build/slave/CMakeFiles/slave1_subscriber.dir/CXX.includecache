@@ -700,23 +700,3 @@ vector
 time.h
 -
 
-/usr/local/include/libserial/SerialPort.h
-libserial/SerialPortConstants.h
--
-ios
--
-memory
--
-
-/usr/local/include/libserial/SerialPortConstants.h
-limits
--
-stdexcept
--
-string
--
-termios.h
--
-vector
--
-

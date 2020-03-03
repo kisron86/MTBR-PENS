@@ -78,6 +78,17 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -113,21 +124,10 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule
+.PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule
+
+# Convenience name for target.
+rosserial_server_serial_node: rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule
+
+.PHONY : rosserial_server_serial_node
+
+# fast build rule for target.
+rosserial_server_serial_node/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build
+.PHONY : rosserial_server_serial_node/fast
+
+# Convenience name for target.
 rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/rule
 .PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/rule
@@ -181,6 +196,21 @@ rosserial_server_socket_node: rosserial/rosserial_server/CMakeFiles/rosserial_se
 rosserial_server_socket_node/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build
 .PHONY : rosserial_server_socket_node/fast
+
+# Convenience name for target.
+rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/rule
+.PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/rule
+
+# Convenience name for target.
+rosserial_server_lookup: rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/rule
+
+.PHONY : rosserial_server_lookup
+
+# fast build rule for target.
+rosserial_server_lookup/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build
+.PHONY : rosserial_server_lookup/fast
 
 # Convenience name for target.
 rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/rule:
@@ -197,20 +227,32 @@ rosserial_server_udp_socket_node/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build
 .PHONY : rosserial_server_udp_socket_node/fast
 
-# Convenience name for target.
-rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule
-.PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule
+src/msg_lookup.o: src/msg_lookup.cpp.o
 
-# Convenience name for target.
-rosserial_server_serial_node: rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/rule
+.PHONY : src/msg_lookup.o
 
-.PHONY : rosserial_server_serial_node
+# target to build an object file
+src/msg_lookup.cpp.o:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o
+.PHONY : src/msg_lookup.cpp.o
 
-# fast build rule for target.
-rosserial_server_serial_node/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build
-.PHONY : rosserial_server_serial_node/fast
+src/msg_lookup.i: src/msg_lookup.cpp.i
+
+.PHONY : src/msg_lookup.i
+
+# target to preprocess a source file
+src/msg_lookup.cpp.i:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.i
+.PHONY : src/msg_lookup.cpp.i
+
+src/msg_lookup.s: src/msg_lookup.cpp.s
+
+.PHONY : src/msg_lookup.s
+
+# target to generate assembly for a file
+src/msg_lookup.cpp.s:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.s
+.PHONY : src/msg_lookup.cpp.s
 
 src/serial_node.o: src/serial_node.cpp.o
 
@@ -301,14 +343,18 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... rosserial_server_serial_node"
 	@echo "... install/strip"
 	@echo "... rosserial_server_socket_node"
 	@echo "... install/local"
+	@echo "... rosserial_server_lookup"
 	@echo "... test"
 	@echo "... rosserial_server_udp_socket_node"
-	@echo "... rosserial_server_serial_node"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... src/msg_lookup.o"
+	@echo "... src/msg_lookup.i"
+	@echo "... src/msg_lookup.s"
 	@echo "... src/serial_node.o"
 	@echo "... src/serial_node.i"
 	@echo "... src/serial_node.s"

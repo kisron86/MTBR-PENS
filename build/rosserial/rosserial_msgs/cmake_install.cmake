@@ -45,11 +45,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosserial_msgs/srv" TYPE FILE FILES
-    "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv"
-    "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
-    "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosserial_msgs/srv" TYPE FILE FILES "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

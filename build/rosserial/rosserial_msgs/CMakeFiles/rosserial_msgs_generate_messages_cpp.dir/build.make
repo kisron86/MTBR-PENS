@@ -55,8 +55,6 @@ include rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp
 
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/Log.h
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/TopicInfo.h
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h
 
 
@@ -72,32 +70,16 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from rosserial_msgs/TopicInfo.msg"
 	cd /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs && /home/kisron/catkin_workspace/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/include/rosserial_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from rosserial_msgs/RequestServiceInfo.srv"
-	cd /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs && /home/kisron/catkin_workspace/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/include/rosserial_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
-
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from rosserial_msgs/RequestMessageInfo.srv"
-	cd /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs && /home/kisron/catkin_workspace/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/include/rosserial_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
-
 /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv
 /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from rosserial_msgs/RequestParam.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from rosserial_msgs/RequestParam.srv"
 	cd /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs && /home/kisron/catkin_workspace/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/include/rosserial_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 rosserial_msgs_generate_messages_cpp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp
 rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/Log.h
 rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/TopicInfo.h
-rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h
-rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h
 rosserial_msgs_generate_messages_cpp: /home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h
 rosserial_msgs_generate_messages_cpp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/build.make
 

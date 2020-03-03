@@ -55,8 +55,6 @@ include rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.
 
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py
@@ -72,44 +70,28 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/k
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG rosserial_msgs/TopicInfo"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg
 
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV rosserial_msgs/RequestServiceInfo"
-	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv
-
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV rosserial_msgs/RequestMessageInfo"
-	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv
-
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV rosserial_msgs/RequestParam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV rosserial_msgs/RequestParam"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv
 
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for rosserial_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for rosserial_msgs"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg --initpy
 
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py
-/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py
 /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for rosserial_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for rosserial_msgs"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv --initpy
 
 rosserial_msgs_generate_messages_py: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py
 rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py
 rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py
-rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py
-rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py
 rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py
 rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py
 rosserial_msgs_generate_messages_py: /home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py

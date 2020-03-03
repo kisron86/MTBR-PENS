@@ -103,8 +103,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -636,6 +636,19 @@ rosserial_mbed_genpy/fast:
 .PHONY : rosserial_mbed_genpy/fast
 
 #=============================================================================
+# Target rules for targets named rosserial_msgs_gencpp
+
+# Build rule for target.
+rosserial_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosserial_msgs_gencpp
+.PHONY : rosserial_msgs_gencpp
+
+# fast build rule for target.
+rosserial_msgs_gencpp/fast:
+	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build
+.PHONY : rosserial_msgs_gencpp/fast
+
+#=============================================================================
 # Target rules for targets named _rosserial_msgs_generate_messages_check_deps_RequestParam
 
 # Build rule for target.
@@ -649,45 +662,6 @@ _rosserial_msgs_generate_messages_check_deps_RequestParam/fast:
 .PHONY : _rosserial_msgs_generate_messages_check_deps_RequestParam/fast
 
 #=============================================================================
-# Target rules for targets named _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo
-
-# Build rule for target.
-_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo
-
-# fast build rule for target.
-_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo/fast:
-	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/build.make rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/build
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo/fast
-
-#=============================================================================
-# Target rules for targets named rosserial_msgs_generate_messages_lisp
-
-# Build rule for target.
-rosserial_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosserial_msgs_generate_messages_lisp
-.PHONY : rosserial_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosserial_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build
-.PHONY : rosserial_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo
-
-# Build rule for target.
-_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo
-
-# fast build rule for target.
-_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo/fast:
-	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/build.make rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/build
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo/fast
-
-#=============================================================================
 # Target rules for targets named rosserial_msgs_generate_messages
 
 # Build rule for target.
@@ -699,19 +673,6 @@ rosserial_msgs_generate_messages: cmake_check_build_system
 rosserial_msgs_generate_messages/fast:
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build
 .PHONY : rosserial_msgs_generate_messages/fast
-
-#=============================================================================
-# Target rules for targets named rosserial_msgs_gencpp
-
-# Build rule for target.
-rosserial_msgs_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosserial_msgs_gencpp
-.PHONY : rosserial_msgs_gencpp
-
-# fast build rule for target.
-rosserial_msgs_gencpp/fast:
-	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build
-.PHONY : rosserial_msgs_gencpp/fast
 
 #=============================================================================
 # Target rules for targets named rosserial_msgs_generate_messages_eus
@@ -766,6 +727,19 @@ rosserial_msgs_geneus/fast:
 .PHONY : rosserial_msgs_geneus/fast
 
 #=============================================================================
+# Target rules for targets named rosserial_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosserial_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosserial_msgs_generate_messages_lisp
+.PHONY : rosserial_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosserial_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build
+.PHONY : rosserial_msgs_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named _rosserial_msgs_generate_messages_check_deps_TopicInfo
 
 # Build rule for target.
@@ -818,19 +792,6 @@ rosserial_msgs_gennodejs/fast:
 .PHONY : rosserial_msgs_gennodejs/fast
 
 #=============================================================================
-# Target rules for targets named rosserial_msgs_generate_messages_py
-
-# Build rule for target.
-rosserial_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosserial_msgs_generate_messages_py
-.PHONY : rosserial_msgs_generate_messages_py
-
-# fast build rule for target.
-rosserial_msgs_generate_messages_py/fast:
-	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build
-.PHONY : rosserial_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named rosserial_msgs_genpy
 
 # Build rule for target.
@@ -842,6 +803,19 @@ rosserial_msgs_genpy: cmake_check_build_system
 rosserial_msgs_genpy/fast:
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/build
 .PHONY : rosserial_msgs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named rosserial_msgs_generate_messages_py
+
+# Build rule for target.
+rosserial_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosserial_msgs_generate_messages_py
+.PHONY : rosserial_msgs_generate_messages_py
+
+# fast build rule for target.
+rosserial_msgs_generate_messages_py/fast:
+	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build
+.PHONY : rosserial_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named _run_tests_rosserial_client
@@ -985,6 +959,175 @@ _run_tests_rosserial_client_gtest_subscriber_test: cmake_check_build_system
 _run_tests_rosserial_client_gtest_subscriber_test/fast:
 	$(MAKE) -f rosserial/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest_subscriber_test.dir/build.make rosserial/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest_subscriber_test.dir/build
 .PHONY : _run_tests_rosserial_client_gtest_subscriber_test/fast
+
+#=============================================================================
+# Target rules for targets named serial
+
+# Build rule for target.
+serial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serial
+.PHONY : serial
+
+# fast build rule for target.
+serial/fast:
+	$(MAKE) -f serial/CMakeFiles/serial.dir/build.make serial/CMakeFiles/serial.dir/build
+.PHONY : serial/fast
+
+#=============================================================================
+# Target rules for targets named serial_example
+
+# Build rule for target.
+serial_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serial_example
+.PHONY : serial_example
+
+# fast build rule for target.
+serial_example/fast:
+	$(MAKE) -f serial/CMakeFiles/serial_example.dir/build.make serial/CMakeFiles/serial_example.dir/build
+.PHONY : serial_example/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_serial_gtest
+
+# Build rule for target.
+_run_tests_serial_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_serial_gtest
+.PHONY : _run_tests_serial_gtest
+
+# fast build rule for target.
+_run_tests_serial_gtest/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/build.make serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/build
+.PHONY : _run_tests_serial_gtest/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_serial_gtest
+
+# Build rule for target.
+run_tests_serial_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_serial_gtest
+.PHONY : run_tests_serial_gtest
+
+# fast build rule for target.
+run_tests_serial_gtest/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/run_tests_serial_gtest.dir/build.make serial/tests/CMakeFiles/run_tests_serial_gtest.dir/build
+.PHONY : run_tests_serial_gtest/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_serial_gtest_serial-test-timer
+
+# Build rule for target.
+_run_tests_serial_gtest_serial-test-timer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_serial_gtest_serial-test-timer
+.PHONY : _run_tests_serial_gtest_serial-test-timer
+
+# fast build rule for target.
+_run_tests_serial_gtest_serial-test-timer/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/build.make serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/build
+.PHONY : _run_tests_serial_gtest_serial-test-timer/fast
+
+#=============================================================================
+# Target rules for targets named serial-test
+
+# Build rule for target.
+serial-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serial-test
+.PHONY : serial-test
+
+# fast build rule for target.
+serial-test/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/serial-test.dir/build.make serial/tests/CMakeFiles/serial-test.dir/build
+.PHONY : serial-test/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_serial_gtest_serial-test
+
+# Build rule for target.
+run_tests_serial_gtest_serial-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_serial_gtest_serial-test
+.PHONY : run_tests_serial_gtest_serial-test
+
+# fast build rule for target.
+run_tests_serial_gtest_serial-test/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/build.make serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/build
+.PHONY : run_tests_serial_gtest_serial-test/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_serial
+
+# Build rule for target.
+run_tests_serial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_serial
+.PHONY : run_tests_serial
+
+# fast build rule for target.
+run_tests_serial/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/run_tests_serial.dir/build.make serial/tests/CMakeFiles/run_tests_serial.dir/build
+.PHONY : run_tests_serial/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_serial_gtest_serial-test
+
+# Build rule for target.
+_run_tests_serial_gtest_serial-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_serial_gtest_serial-test
+.PHONY : _run_tests_serial_gtest_serial-test
+
+# fast build rule for target.
+_run_tests_serial_gtest_serial-test/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/build.make serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/build
+.PHONY : _run_tests_serial_gtest_serial-test/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_serial
+
+# Build rule for target.
+clean_test_results_serial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_serial
+.PHONY : clean_test_results_serial
+
+# fast build rule for target.
+clean_test_results_serial/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/clean_test_results_serial.dir/build.make serial/tests/CMakeFiles/clean_test_results_serial.dir/build
+.PHONY : clean_test_results_serial/fast
+
+#=============================================================================
+# Target rules for targets named serial-test-timer
+
+# Build rule for target.
+serial-test-timer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serial-test-timer
+.PHONY : serial-test-timer
+
+# fast build rule for target.
+serial-test-timer/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/serial-test-timer.dir/build.make serial/tests/CMakeFiles/serial-test-timer.dir/build
+.PHONY : serial-test-timer/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_serial_gtest_serial-test-timer
+
+# Build rule for target.
+run_tests_serial_gtest_serial-test-timer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_serial_gtest_serial-test-timer
+.PHONY : run_tests_serial_gtest_serial-test-timer
+
+# fast build rule for target.
+run_tests_serial_gtest_serial-test-timer/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build.make serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build
+.PHONY : run_tests_serial_gtest_serial-test-timer/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_serial
+
+# Build rule for target.
+_run_tests_serial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_serial
+.PHONY : _run_tests_serial
+
+# fast build rule for target.
+_run_tests_serial/fast:
+	$(MAKE) -f serial/tests/CMakeFiles/_run_tests_serial.dir/build.make serial/tests/CMakeFiles/_run_tests_serial.dir/build
+.PHONY : _run_tests_serial/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -2404,17 +2547,17 @@ inverskinematic/fast:
 .PHONY : inverskinematic/fast
 
 #=============================================================================
-# Target rules for targets named slave1_subscriber
+# Target rules for targets named publisher
 
 # Build rule for target.
-slave1_subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 slave1_subscriber
-.PHONY : slave1_subscriber
+publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publisher
+.PHONY : publisher
 
 # fast build rule for target.
-slave1_subscriber/fast:
-	$(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
-.PHONY : slave1_subscriber/fast
+publisher/fast:
+	$(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
 
 #=============================================================================
 # Target rules for targets named prediction_system
@@ -2428,19 +2571,6 @@ prediction_system: cmake_check_build_system
 prediction_system/fast:
 	$(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/build
 .PHONY : prediction_system/fast
-
-#=============================================================================
-# Target rules for targets named publisher
-
-# Build rule for target.
-publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 publisher
-.PHONY : publisher
-
-# fast build rule for target.
-publisher/fast:
-	$(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/build
-.PHONY : publisher/fast
 
 #=============================================================================
 # Target rules for targets named read_sensor
@@ -2482,6 +2612,19 @@ decision_making_system/fast:
 .PHONY : decision_making_system/fast
 
 #=============================================================================
+# Target rules for targets named rosserial_server_serial_node
+
+# Build rule for target.
+rosserial_server_serial_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosserial_server_serial_node
+.PHONY : rosserial_server_serial_node
+
+# fast build rule for target.
+rosserial_server_serial_node/fast:
+	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build
+.PHONY : rosserial_server_serial_node/fast
+
+#=============================================================================
 # Target rules for targets named rosserial_server_socket_node
 
 # Build rule for target.
@@ -2495,6 +2638,19 @@ rosserial_server_socket_node/fast:
 .PHONY : rosserial_server_socket_node/fast
 
 #=============================================================================
+# Target rules for targets named rosserial_server_lookup
+
+# Build rule for target.
+rosserial_server_lookup: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosserial_server_lookup
+.PHONY : rosserial_server_lookup
+
+# fast build rule for target.
+rosserial_server_lookup/fast:
+	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build
+.PHONY : rosserial_server_lookup/fast
+
+#=============================================================================
 # Target rules for targets named rosserial_server_udp_socket_node
 
 # Build rule for target.
@@ -2506,19 +2662,6 @@ rosserial_server_udp_socket_node: cmake_check_build_system
 rosserial_server_udp_socket_node/fast:
 	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build
 .PHONY : rosserial_server_udp_socket_node/fast
-
-#=============================================================================
-# Target rules for targets named rosserial_server_serial_node
-
-# Build rule for target.
-rosserial_server_serial_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosserial_server_serial_node
-.PHONY : rosserial_server_serial_node
-
-# fast build rule for target.
-rosserial_server_serial_node/fast:
-	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build
-.PHONY : rosserial_server_serial_node/fast
 
 #=============================================================================
 # Target rules for targets named run_tests_rosserial_test_rostest
@@ -2738,22 +2881,20 @@ help:
 	@echo "... rosserial_mbed_gennodejs"
 	@echo "... rosserial_mbed_generate_messages"
 	@echo "... rosserial_mbed_genpy"
-	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestParam"
-	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo"
-	@echo "... rosserial_msgs_generate_messages_lisp"
-	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo"
-	@echo "... rosserial_msgs_generate_messages"
 	@echo "... rosserial_msgs_gencpp"
+	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestParam"
+	@echo "... rosserial_msgs_generate_messages"
 	@echo "... rosserial_msgs_generate_messages_eus"
 	@echo "... rosserial_msgs_generate_messages_nodejs"
 	@echo "... rosserial_msgs_generate_messages_cpp"
 	@echo "... rosserial_msgs_geneus"
+	@echo "... rosserial_msgs_generate_messages_lisp"
 	@echo "... _rosserial_msgs_generate_messages_check_deps_TopicInfo"
 	@echo "... rosserial_msgs_genlisp"
 	@echo "... _rosserial_msgs_generate_messages_check_deps_Log"
 	@echo "... rosserial_msgs_gennodejs"
-	@echo "... rosserial_msgs_generate_messages_py"
 	@echo "... rosserial_msgs_genpy"
+	@echo "... rosserial_msgs_generate_messages_py"
 	@echo "... _run_tests_rosserial_client"
 	@echo "... float64_test"
 	@echo "... _run_tests_rosserial_client_gtest_float64_test"
@@ -2765,6 +2906,19 @@ help:
 	@echo "... clean_test_results_rosserial_client"
 	@echo "... subscriber_test"
 	@echo "... _run_tests_rosserial_client_gtest_subscriber_test"
+	@echo "... serial"
+	@echo "... serial_example"
+	@echo "... _run_tests_serial_gtest"
+	@echo "... run_tests_serial_gtest"
+	@echo "... _run_tests_serial_gtest_serial-test-timer"
+	@echo "... serial-test"
+	@echo "... run_tests_serial_gtest_serial-test"
+	@echo "... run_tests_serial"
+	@echo "... _run_tests_serial_gtest_serial-test"
+	@echo "... clean_test_results_serial"
+	@echo "... serial-test-timer"
+	@echo "... run_tests_serial_gtest_serial-test-timer"
+	@echo "... _run_tests_serial"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
@@ -2874,15 +3028,15 @@ help:
 	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... fuzzybicycle"
 	@echo "... inverskinematic"
-	@echo "... slave1_subscriber"
-	@echo "... prediction_system"
 	@echo "... publisher"
+	@echo "... prediction_system"
 	@echo "... read_sensor"
 	@echo "... data_conversion"
 	@echo "... decision_making_system"
-	@echo "... rosserial_server_socket_node"
-	@echo "... rosserial_server_udp_socket_node"
 	@echo "... rosserial_server_serial_node"
+	@echo "... rosserial_server_socket_node"
+	@echo "... rosserial_server_lookup"
+	@echo "... rosserial_server_udp_socket_node"
 	@echo "... run_tests_rosserial_test_rostest"
 	@echo "... run_tests_rosserial_test"
 	@echo "... rosserial_test_rosserial_lib"

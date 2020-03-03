@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "rosserial_msgs: 2 messages, 3 services")
+message(STATUS "rosserial_msgs: 2 messages, 1 services")
 
 set(MSG_I_FLAGS "-Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg")
 
@@ -20,16 +20,6 @@ add_custom_target(rosserial_msgs_generate_messages ALL)
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" NAME_WE)
 add_custom_target(_rosserial_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rosserial_msgs" "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" ""
-)
-
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" NAME_WE)
-add_custom_target(_rosserial_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rosserial_msgs" "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" ""
-)
-
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" NAME_WE)
-add_custom_target(_rosserial_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rosserial_msgs" "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" ""
 )
 
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg" NAME_WE)
@@ -63,18 +53,6 @@ _generate_msg_cpp(rosserial_msgs
 
 ### Generating Services
 _generate_srv_cpp(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_cpp(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_cpp(rosserial_msgs
   "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
   "${MSG_I_FLAGS}"
   ""
@@ -94,10 +72,6 @@ add_dependencies(rosserial_msgs_generate_messages rosserial_msgs_generate_messag
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_cpp _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_cpp _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_cpp _rosserial_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_cpp _rosserial_msgs_generate_messages_check_deps_${_filename})
@@ -128,18 +102,6 @@ _generate_msg_eus(rosserial_msgs
 
 ### Generating Services
 _generate_srv_eus(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_eus(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_eus(rosserial_msgs
   "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
   "${MSG_I_FLAGS}"
   ""
@@ -159,10 +121,6 @@ add_dependencies(rosserial_msgs_generate_messages rosserial_msgs_generate_messag
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_eus _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_eus _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_eus _rosserial_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_eus _rosserial_msgs_generate_messages_check_deps_${_filename})
@@ -193,18 +151,6 @@ _generate_msg_lisp(rosserial_msgs
 
 ### Generating Services
 _generate_srv_lisp(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_lisp(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_lisp(rosserial_msgs
   "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
   "${MSG_I_FLAGS}"
   ""
@@ -224,10 +170,6 @@ add_dependencies(rosserial_msgs_generate_messages rosserial_msgs_generate_messag
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_lisp _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_lisp _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_lisp _rosserial_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_lisp _rosserial_msgs_generate_messages_check_deps_${_filename})
@@ -258,18 +200,6 @@ _generate_msg_nodejs(rosserial_msgs
 
 ### Generating Services
 _generate_srv_nodejs(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_nodejs(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_nodejs(rosserial_msgs
   "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
   "${MSG_I_FLAGS}"
   ""
@@ -289,10 +219,6 @@ add_dependencies(rosserial_msgs_generate_messages rosserial_msgs_generate_messag
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_nodejs _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_nodejs _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_nodejs _rosserial_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_nodejs _rosserial_msgs_generate_messages_check_deps_${_filename})
@@ -323,18 +249,6 @@ _generate_msg_py(rosserial_msgs
 
 ### Generating Services
 _generate_srv_py(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_py(rosserial_msgs
-  "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/rosserial_msgs
-)
-_generate_srv_py(rosserial_msgs
   "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
   "${MSG_I_FLAGS}"
   ""
@@ -354,10 +268,6 @@ add_dependencies(rosserial_msgs_generate_messages rosserial_msgs_generate_messag
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_py _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv" NAME_WE)
-add_dependencies(rosserial_msgs_generate_messages_py _rosserial_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_py _rosserial_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg" NAME_WE)
 add_dependencies(rosserial_msgs_generate_messages_py _rosserial_msgs_generate_messages_check_deps_${_filename})

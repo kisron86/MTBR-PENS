@@ -55,8 +55,6 @@ include rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nod
 
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/msg/Log.js
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/msg/TopicInfo.js
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestServiceInfo.js
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestMessageInfo.js
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestParam.js
 
 
@@ -70,26 +68,14 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs: /ho
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from rosserial_msgs/TopicInfo.msg"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/msg
 
-/home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestServiceInfo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestServiceInfo.js: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from rosserial_msgs/RequestServiceInfo.srv"
-	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv
-
-/home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestMessageInfo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestMessageInfo.js: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from rosserial_msgs/RequestMessageInfo.srv"
-	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv
-
 /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestParam.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestParam.js: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from rosserial_msgs/RequestParam.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from rosserial_msgs/RequestParam.srv"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv
 
 rosserial_msgs_generate_messages_nodejs: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs
 rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/msg/Log.js
 rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/msg/TopicInfo.js
-rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestServiceInfo.js
-rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestMessageInfo.js
 rosserial_msgs_generate_messages_nodejs: /home/kisron/catkin_workspace/devel/share/gennodejs/ros/rosserial_msgs/srv/RequestParam.js
 rosserial_msgs_generate_messages_nodejs: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs.dir/build.make
 

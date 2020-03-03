@@ -99,7 +99,7 @@ data_conversion_EXTERNAL_OBJECTS =
 /home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 /home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /usr/local/lib/libserial.so
+/home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /home/kisron/catkin_workspace/devel/lib/libserial.so
 /home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /usr/lib/x86_64-linux-gnu/librt.so
 /home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /opt/ros/melodic/lib/libroscpp_serialization.so
 /home/kisron/catkin_workspace/devel/lib/slave/data_conversion: /opt/ros/melodic/lib/librostime.so

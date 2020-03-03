@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/Log.msg;/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/TopicInfo.msg"
-services_str = "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv;/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv;/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv"
+services_str = "/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv"
 pkg_name = "rosserial_msgs"
 dependencies_str = ""
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

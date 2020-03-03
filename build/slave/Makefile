@@ -126,8 +126,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -168,19 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-slave/CMakeFiles/slave1_subscriber.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/slave1_subscriber.dir/rule
-.PHONY : slave/CMakeFiles/slave1_subscriber.dir/rule
+slave/CMakeFiles/publisher.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/publisher.dir/rule
+.PHONY : slave/CMakeFiles/publisher.dir/rule
 
 # Convenience name for target.
-slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/rule
+publisher: slave/CMakeFiles/publisher.dir/rule
 
-.PHONY : slave1_subscriber
+.PHONY : publisher
 
 # fast build rule for target.
-slave1_subscriber/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/build
-.PHONY : slave1_subscriber/fast
+publisher/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
 
 # Convenience name for target.
 slave/CMakeFiles/prediction_system.dir/rule:
@@ -196,21 +196,6 @@ prediction_system: slave/CMakeFiles/prediction_system.dir/rule
 prediction_system/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/prediction_system.dir/build.make slave/CMakeFiles/prediction_system.dir/build
 .PHONY : prediction_system/fast
-
-# Convenience name for target.
-slave/CMakeFiles/publisher.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 slave/CMakeFiles/publisher.dir/rule
-.PHONY : slave/CMakeFiles/publisher.dir/rule
-
-# Convenience name for target.
-publisher: slave/CMakeFiles/publisher.dir/rule
-
-.PHONY : publisher
-
-# fast build rule for target.
-publisher/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/publisher.dir/build.make slave/CMakeFiles/publisher.dir/build
-.PHONY : publisher/fast
 
 # Convenience name for target.
 slave/CMakeFiles/read_sensor.dir/rule:
@@ -392,33 +377,6 @@ src/read_sensor.cpp.s:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/read_sensor.dir/build.make slave/CMakeFiles/read_sensor.dir/src/read_sensor.cpp.s
 .PHONY : src/read_sensor.cpp.s
 
-src/slave1_subscriber.o: src/slave1_subscriber.cpp.o
-
-.PHONY : src/slave1_subscriber.o
-
-# target to build an object file
-src/slave1_subscriber.cpp.o:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o
-.PHONY : src/slave1_subscriber.cpp.o
-
-src/slave1_subscriber.i: src/slave1_subscriber.cpp.i
-
-.PHONY : src/slave1_subscriber.i
-
-# target to preprocess a source file
-src/slave1_subscriber.cpp.i:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.i
-.PHONY : src/slave1_subscriber.cpp.i
-
-src/slave1_subscriber.s: src/slave1_subscriber.cpp.s
-
-.PHONY : src/slave1_subscriber.s
-
-# target to generate assembly for a file
-src/slave1_subscriber.cpp.s:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.s
-.PHONY : src/slave1_subscriber.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -429,12 +387,11 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... publisher"
+	@echo "... prediction_system"
+	@echo "... read_sensor"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... slave1_subscriber"
-	@echo "... prediction_system"
-	@echo "... publisher"
-	@echo "... read_sensor"
 	@echo "... edit_cache"
 	@echo "... data_conversion"
 	@echo "... decision_making_system"
@@ -453,9 +410,6 @@ help:
 	@echo "... src/read_sensor.o"
 	@echo "... src/read_sensor.i"
 	@echo "... src/read_sensor.s"
-	@echo "... src/slave1_subscriber.o"
-	@echo "... src/slave1_subscriber.i"
-	@echo "... src/slave1_subscriber.s"
 .PHONY : help
 
 

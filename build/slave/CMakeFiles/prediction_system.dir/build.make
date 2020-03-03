@@ -99,7 +99,7 @@ prediction_system_EXTERNAL_OBJECTS =
 /home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 /home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /usr/local/lib/libserial.so
+/home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /home/kisron/catkin_workspace/devel/lib/libserial.so
 /home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /usr/lib/x86_64-linux-gnu/librt.so
 /home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /opt/ros/melodic/lib/libroscpp_serialization.so
 /home/kisron/catkin_workspace/devel/lib/slave/prediction_system: /opt/ros/melodic/lib/librostime.so

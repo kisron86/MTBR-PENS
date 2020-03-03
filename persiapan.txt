@@ -2,5 +2,12 @@
 2. Install Chrome
 3. Install ROS, Create Workspace
 4. Install Qt
-5. Clone repository catkin_workspace
-6. Install sql phpmyadmin apache2
+5. Install sql phpmyadmin apache2
+6. Clone repository catkin_workspace
+
+
+http://wjwwood.io/serial/
+
+Install telepot
+
+pip3 install mysql-connector-python-rf

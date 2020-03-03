@@ -57,70 +57,7 @@ include slave/CMakeFiles/slave1_subscriber.dir/progress.make
 # Include the compile flags for this target's objects.
 include slave/CMakeFiles/slave1_subscriber.dir/flags.make
 
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o: slave/CMakeFiles/slave1_subscriber.dir/flags.make
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o: /home/kisron/catkin_workspace/src/slave/src/slave1_subscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o"
-	cd /home/kisron/catkin_workspace/build/slave && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o -c /home/kisron/catkin_workspace/src/slave/src/slave1_subscriber.cpp
-
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.i"
-	cd /home/kisron/catkin_workspace/build/slave && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kisron/catkin_workspace/src/slave/src/slave1_subscriber.cpp > CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.i
-
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.s"
-	cd /home/kisron/catkin_workspace/build/slave && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kisron/catkin_workspace/src/slave/src/slave1_subscriber.cpp -o CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.s
-
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.requires:
-
-.PHONY : slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.requires
-
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.provides: slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.requires
-	$(MAKE) -f slave/CMakeFiles/slave1_subscriber.dir/build.make slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.provides.build
-.PHONY : slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.provides
-
-slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.provides.build: slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o
-
-
-# Object files for target slave1_subscriber
-slave1_subscriber_OBJECTS = \
-"CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o"
-
-# External object files for target slave1_subscriber
-slave1_subscriber_EXTERNAL_OBJECTS =
-
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/build.make
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/libroscpp.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/librosconsole.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/local/lib/libserial.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/librt.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/librostime.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /opt/ros/melodic/lib/libcpp_common.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber: slave/CMakeFiles/slave1_subscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber"
-	cd /home/kisron/catkin_workspace/build/slave && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slave1_subscriber.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-slave/CMakeFiles/slave1_subscriber.dir/build: /home/kisron/catkin_workspace/devel/lib/slave/slave1_subscriber
-
-.PHONY : slave/CMakeFiles/slave1_subscriber.dir/build
-
-slave/CMakeFiles/slave1_subscriber.dir/requires: slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o.requires
+slave/CMakeFiles/slave1_subscriber.dir/requires:
 
 .PHONY : slave/CMakeFiles/slave1_subscriber.dir/requires
 

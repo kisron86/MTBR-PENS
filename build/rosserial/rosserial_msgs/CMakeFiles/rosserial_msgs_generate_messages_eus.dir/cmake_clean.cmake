@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rosserial_msgs_generate_messages_eus"
   "/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg/Log.l"
   "/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg/TopicInfo.l"
-  "/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l"
-  "/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l"
   "/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestParam.l"
   "/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/manifest.l"
 )

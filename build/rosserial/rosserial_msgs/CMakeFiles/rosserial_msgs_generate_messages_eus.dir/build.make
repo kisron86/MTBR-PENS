@@ -55,8 +55,6 @@ include rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus
 
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg/Log.l
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg/TopicInfo.l
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestParam.l
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/manifest.l
 
@@ -71,30 +69,18 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus: /home/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from rosserial_msgs/TopicInfo.msg"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg
 
-/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from rosserial_msgs/RequestServiceInfo.srv"
-	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestServiceInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv
-
-/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from rosserial_msgs/RequestMessageInfo.srv"
-	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestMessageInfo.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv
-
 /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestParam.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestParam.l: /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from rosserial_msgs/RequestParam.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from rosserial_msgs/RequestParam.srv"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/kisron/catkin_workspace/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv
 
 /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for rosserial_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kisron/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for rosserial_msgs"
 	cd /home/kisron/catkin_workspace/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs rosserial_msgs
 
 rosserial_msgs_generate_messages_eus: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus
 rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg/Log.l
 rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/msg/TopicInfo.l
-rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l
-rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l
 rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/srv/RequestParam.l
 rosserial_msgs_generate_messages_eus: /home/kisron/catkin_workspace/devel/share/roseus/ros/rosserial_msgs/manifest.l
 rosserial_msgs_generate_messages_eus: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus.dir/build.make

@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rosserial_msgs_generate_messages_cpp"
   "/home/kisron/catkin_workspace/devel/include/rosserial_msgs/Log.h"
   "/home/kisron/catkin_workspace/devel/include/rosserial_msgs/TopicInfo.h"
-  "/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestServiceInfo.h"
-  "/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestMessageInfo.h"
   "/home/kisron/catkin_workspace/devel/include/rosserial_msgs/RequestParam.h"
 )
 

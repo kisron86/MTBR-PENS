@@ -62,5 +62,3 @@ slave/CMakeFiles/slave1_subscriber.dir/src/slave1_subscriber.cpp.o
  /opt/ros/melodic/include/std_msgs/String.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
- /usr/local/include/libserial/SerialPort.h
- /usr/local/include/libserial/SerialPortConstants.h

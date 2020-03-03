@@ -91,17 +91,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -134,6 +123,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
+.PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
+
+# Convenience name for target.
+rosserial_msgs_gencpp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
+
+.PHONY : rosserial_msgs_gencpp
+
+# fast build rule for target.
+rosserial_msgs_gencpp/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build
+.PHONY : rosserial_msgs_gencpp/fast
+
+# Convenience name for target.
 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestParam.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestParam.dir/rule
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestParam.dir/rule
@@ -183,51 +198,6 @@ _rosserial_msgs_generate_messages_check_deps_RequestParam/fast:
 .PHONY : _rosserial_msgs_generate_messages_check_deps_RequestParam/fast
 
 # Convenience name for target.
-rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/rule
-.PHONY : rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/rule
-
-# Convenience name for target.
-_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo: rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/rule
-
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo
-
-# fast build rule for target.
-_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/build.make rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestServiceInfo.dir/build
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo/fast
-
-# Convenience name for target.
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosserial_msgs_generate_messages_lisp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosserial_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosserial_msgs_generate_messages_lisp/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build
-.PHONY : rosserial_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/rule
-.PHONY : rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/rule
-
-# Convenience name for target.
-_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo: rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/rule
-
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo
-
-# fast build rule for target.
-_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/build.make rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_RequestMessageInfo.dir/build
-.PHONY : _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo/fast
-
-# Convenience name for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/rule
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/rule
@@ -241,21 +211,6 @@ rosserial_msgs_generate_messages: rosserial/rosserial_msgs/CMakeFiles/rosserial_
 rosserial_msgs_generate_messages/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build
 .PHONY : rosserial_msgs_generate_messages/fast
-
-# Convenience name for target.
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
-.PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
-
-# Convenience name for target.
-rosserial_msgs_gencpp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
-
-.PHONY : rosserial_msgs_gencpp
-
-# fast build rule for target.
-rosserial_msgs_gencpp/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/build
-.PHONY : rosserial_msgs_gencpp/fast
 
 # Convenience name for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus.dir/rule:
@@ -318,6 +273,21 @@ rosserial_msgs_geneus/fast:
 .PHONY : rosserial_msgs_geneus/fast
 
 # Convenience name for target.
+rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosserial_msgs_generate_messages_lisp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosserial_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosserial_msgs_generate_messages_lisp/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build
+.PHONY : rosserial_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo.dir/rule
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo.dir/rule
@@ -378,21 +348,6 @@ rosserial_msgs_gennodejs/fast:
 .PHONY : rosserial_msgs_gennodejs/fast
 
 # Convenience name for target.
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule
-.PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosserial_msgs_generate_messages_py: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosserial_msgs_generate_messages_py
-
-# fast build rule for target.
-rosserial_msgs_generate_messages_py/fast:
-	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build
-.PHONY : rosserial_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/rule:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/rule
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/rule
@@ -407,6 +362,21 @@ rosserial_msgs_genpy/fast:
 	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_genpy.dir/build
 .PHONY : rosserial_msgs_genpy/fast
 
+# Convenience name for target.
+rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule
+.PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosserial_msgs_generate_messages_py: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosserial_msgs_generate_messages_py
+
+# fast build rule for target.
+rosserial_msgs_generate_messages_py/fast:
+	cd /home/kisron/catkin_workspace/build && $(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build
+.PHONY : rosserial_msgs_generate_messages_py/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -416,26 +386,24 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
+	@echo "... rosserial_msgs_gencpp"
 	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestParam"
-	@echo "... edit_cache"
-	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo"
-	@echo "... rosserial_msgs_generate_messages_lisp"
-	@echo "... _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo"
 	@echo "... list_install_components"
 	@echo "... rosserial_msgs_generate_messages"
-	@echo "... rosserial_msgs_gencpp"
 	@echo "... rosserial_msgs_generate_messages_eus"
 	@echo "... rosserial_msgs_generate_messages_nodejs"
 	@echo "... rosserial_msgs_generate_messages_cpp"
 	@echo "... rosserial_msgs_geneus"
+	@echo "... rosserial_msgs_generate_messages_lisp"
 	@echo "... _rosserial_msgs_generate_messages_check_deps_TopicInfo"
 	@echo "... rosserial_msgs_genlisp"
 	@echo "... install"
 	@echo "... _rosserial_msgs_generate_messages_check_deps_Log"
 	@echo "... rosserial_msgs_gennodejs"
-	@echo "... test"
-	@echo "... rosserial_msgs_generate_messages_py"
 	@echo "... rosserial_msgs_genpy"
+	@echo "... rosserial_msgs_generate_messages_py"
+	@echo "... test"
+	@echo "... edit_cache"
 .PHONY : help
 
 

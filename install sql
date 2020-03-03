@@ -11,3 +11,6 @@ a. sudo mysql --user=root mysql
 b. CREATE USER 'phpmyadmin'@'localhost' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON *.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+
+menghilangkan error
+https://medium.com/@chaloemphonthipkasorn/fix-bug-phpmyadmin-sql-lib-php-php7-2-ubuntu-16-04-836049630a40
