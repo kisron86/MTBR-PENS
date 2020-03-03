@@ -3,3 +3,4 @@
 3. Install ROS, Create Workspace
 4. Install Qt
 5. Clone repository catkin_workspace
+6. Install sql phpmyadmin apache2
