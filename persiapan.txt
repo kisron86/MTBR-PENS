@@ -1,0 +1,5 @@
+1. Install Ubuntu 18.04 LTS, Update, Upgrade
+2. Install Chrome
+3. Install ROS, Create Workspace
+4. Install Qt
+5. Clone repository catkin_workspace
