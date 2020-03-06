@@ -369,7 +369,7 @@ OPENNI_INCLUDE_DIRS:PATH=/usr/include/ni
 OPENNI_LIBRARY:FILEPATH=/usr/lib/libOpenNI.so
 
 //The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=OpenCV_DIR-NOTFOUND
+OpenCV_DIR:PATH=/usr/share/OpenCV
 
 //path to 2d headers
 PCL_2D_INCLUDE_DIR:PATH=/usr/include/pcl-1.8
@@ -674,6 +674,12 @@ bond_DIR:PATH=/opt/ros/melodic/share/bond/cmake
 //The directory containing a CMake configuration file for bondcpp.
 bondcpp_DIR:PATH=/opt/ros/melodic/share/bondcpp/cmake
 
+//Value Computed by CMake
+camera_BINARY_DIR:STATIC=/home/kisron/catkin_workspace/build/camera
+
+//Value Computed by CMake
+camera_SOURCE_DIR:STATIC=/home/kisron/catkin_workspace/src/camera
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
@@ -686,8 +692,20 @@ cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/melodic/share/cv_bridge/cmake
 
+//Value Computed by CMake
+detection_BINARY_DIR:STATIC=/home/kisron/catkin_workspace/build/detection
+
+//Value Computed by CMake
+detection_SOURCE_DIR:STATIC=/home/kisron/catkin_workspace/src/detection
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
+
+//Value Computed by CMake
+face_detection_BINARY_DIR:STATIC=/home/kisron/catkin_workspace/build/face_detection
+
+//Value Computed by CMake
+face_detection_SOURCE_DIR:STATIC=/home/kisron/catkin_workspace/src/face_detection
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
@@ -1162,7 +1180,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

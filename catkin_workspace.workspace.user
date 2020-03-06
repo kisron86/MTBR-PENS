@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.9.2, 2020-03-03T10:09:52. -->
+<!-- Written by QtCreator 4.9.2, 2020-03-06T11:12:57. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{02911af4-dc4a-4ab7-8e7d-4ff3c8638407}</value>
+  <value type="QByteArray">{b663863b-a0bb-4fe8-8ce3-23c6a2e314f8}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -64,7 +64,7 @@
   <valuemap type="QVariantMap">
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{76766ca7-685c-4e29-a893-90b17e798153}</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{ac2f7273-0fa0-4d70-a70a-f5bc3d51d619}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
@@ -105,21 +105,21 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">CMAKE_PREFIX_PATH=/opt/serial:/home/kisron/catkin_workspace/devel:/opt/ros/melodic</value>
-     <value type="QString">LD_LIBRARY_PATH=/opt/serial/lib:/home/kisron/catkin_workspace/devel/lib:/opt/ros/melodic/lib</value>
+     <value type="QString">CMAKE_PREFIX_PATH=/home/kisron/catkin_workspace/devel:/opt/ros/melodic</value>
+     <value type="QString">LD_LIBRARY_PATH=/home/kisron/catkin_workspace/devel/lib:/opt/ros/melodic/lib</value>
      <value type="QString">PATH=/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/opt/serial/lib/pkgconfig:/home/kisron/catkin_workspace/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/kisron/catkin_workspace/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig</value>
      <value type="QString">PWD=/home/kisron/catkin_workspace</value>
      <value type="QString">PYTHONPATH=/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages</value>
      <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/kisron/catkin_workspace/devel/share/common-lisp</value>
      <value type="QString">ROS_DISTRO=melodic</value>
      <value type="QString">ROS_ETC_DIR=/opt/ros/melodic/etc/ros</value>
      <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
-     <value type="QString">ROS_PACKAGE_PATH=/opt/serial/share:/home/kisron/catkin_workspace/src:/opt/ros/melodic/share</value>
+     <value type="QString">ROS_PACKAGE_PATH=/home/kisron/catkin_workspace/src:/opt/ros/melodic/share</value>
      <value type="QString">ROS_PYTHON_VERSION=2</value>
      <value type="QString">ROS_ROOT=/opt/ros/melodic/share/ros</value>
      <value type="QString">ROS_VERSION=1</value>
-     <value type="QString">SHLVL=811</value>
+     <value type="QString">SHLVL=90</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
