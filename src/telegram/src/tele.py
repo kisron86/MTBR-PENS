@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
 import rospy
+<<<<<<< HEAD
+=======
+import mysql.connector
+
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
 import sys
 import time
 import random
@@ -8,9 +13,12 @@ import datetime
 import telepot
 import os
 import random
+<<<<<<< HEAD
 from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
 from telepot.loop import MessageLoop
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
+=======
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
 
 from mysql.connector import Error
 from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton

@@ -1,6 +1,13 @@
 # Hashes of file build rules.
 5f26689ed38596e79d07f74e62f46f73 /home/kisron/catkin_workspace/devel/include/beginner_tutorials/AddTwoInts.h
 800f0e2ce09c6bb5d5a8f7ff69d88f86 /home/kisron/catkin_workspace/devel/include/beginner_tutorials/Num.h
+<<<<<<< HEAD
+=======
+2ed9d7c3d6d2823da28da169552c9869 /home/kisron/catkin_workspace/devel/include/face_detection/face_detConfig.h
+5139ca330944cab7fb821b9657f9c2fd /home/kisron/catkin_workspace/devel/include/face_detection/face_det_cudaConfig.h
+9a0d18e916e7993a1011b0e628371635 /home/kisron/catkin_workspace/devel/include/face_detection/face_det_dlibConfig.h
+7c87f0b3bf53e0dea1aec3742d9536fc /home/kisron/catkin_workspace/devel/include/face_detection/face_trackConfig.h
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
 22f2535990d6faa530eda497d36f0097 /home/kisron/catkin_workspace/devel/include/rosserial_arduino/Adc.h
 dafd53dbb3748ea6c373e846f2191ad1 /home/kisron/catkin_workspace/devel/include/rosserial_arduino/Test.h
 24f7494e2a5c4ee549437183c82576e6 /home/kisron/catkin_workspace/devel/include/rosserial_mbed/Adc.h

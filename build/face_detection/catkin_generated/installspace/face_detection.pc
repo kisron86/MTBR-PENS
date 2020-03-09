@@ -1,0 +1,8 @@
+prefix=/home/kisron/catkin_workspace/install
+
+Name: face_detection
+Description: Description of face_detection
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport roscpp rospy sensor_msgs std_msgs dynamic_reconfigure

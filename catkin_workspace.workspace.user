@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 4.9.2, 2020-03-08T15:56:00. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
   <value type="QByteArray">{69711361-ae1f-4d76-a973-d292df24dddd}</value>
+=======
+<!-- Written by QtCreator 4.9.2, 2020-03-06T11:12:57. -->
+<qtcreator>
+ <data>
+  <variable>EnvironmentId</variable>
+  <value type="QByteArray">{b663863b-a0bb-4fe8-8ce3-23c6a2e314f8}</value>
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -64,7 +72,11 @@
   <valuemap type="QVariantMap">
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop</value>
+<<<<<<< HEAD
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{91a44c16-69b3-4e8a-b818-eeec4b04136c}</value>
+=======
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{ac2f7273-0fa0-4d70-a70a-f5bc3d51d619}</value>
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
@@ -105,6 +117,7 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+<<<<<<< HEAD
      <value type="QString">#### Running command: &quot;cmake /home/kisron/catkin_workspace/src -G CodeBlocks - Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/kisron/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/kisron/catkin_workspace/install&quot; in &quot;/home/kisron/catkin_workspace/build&quot;</value>
      <value type="QString">--==&gt; add_subdirectory(rosserial/rosserial_windows)</value>
      <value type="QString">CLUTTER_IM_MODULE</value>
@@ -164,6 +177,25 @@
      <value type="QString">XDG_VTNR</value>
      <value type="QString">XMODIFIERS</value>
      <value type="QString">_WSREP_START_POSITION</value>
+=======
+     <value type="QString">CMAKE_PREFIX_PATH=/home/kisron/catkin_workspace/devel:/opt/ros/melodic</value>
+     <value type="QString">LD_LIBRARY_PATH=/home/kisron/catkin_workspace/devel/lib:/opt/ros/melodic/lib</value>
+     <value type="QString">PATH=/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/kisron/catkin_workspace/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig</value>
+     <value type="QString">PWD=/home/kisron/catkin_workspace</value>
+     <value type="QString">PYTHONPATH=/home/kisron/catkin_workspace/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages</value>
+     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/kisron/catkin_workspace/devel/share/common-lisp</value>
+     <value type="QString">ROS_DISTRO=melodic</value>
+     <value type="QString">ROS_ETC_DIR=/opt/ros/melodic/etc/ros</value>
+     <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
+     <value type="QString">ROS_PACKAGE_PATH=/home/kisron/catkin_workspace/src:/opt/ros/melodic/share</value>
+     <value type="QString">ROS_PYTHON_VERSION=2</value>
+     <value type="QString">ROS_ROOT=/opt/ros/melodic/share/ros</value>
+     <value type="QString">ROS_VERSION=1</value>
+     <value type="QString">SHLVL=90</value>
+     <value type="QString">TERM=xterm</value>
+     <value type="QString">_=/usr/bin/env</value>
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Debug</value>

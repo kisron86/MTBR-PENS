@@ -18,7 +18,11 @@ try:
                                          user='phpmyadmin',
                                          password='1234')
 
+<<<<<<< HEAD
     sql_select_Query = "select * from data_sensor ORDER BY id DESC LIMIT 1"
+=======
+    sql_select_Query = "select * from data_sensor"
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
     cursor = connection.cursor()
     cursor.execute(sql_select_Query)
     records = cursor.fetchall()
@@ -50,6 +54,7 @@ def handle(msg):
     elif command == '/Voltage_Motor':
         for row in records:
                 v_motor = str(row[1])
+<<<<<<< HEAD
         bot.sendMessage(chat_id, "Voltage of battery motor is " + v_motor + " Volt")
     elif command == '/Voltage_PC':
         for row in records:
@@ -67,13 +72,38 @@ def handle(msg):
         for row in records:
                 trash_level = str(row[5])
         bot.sendMessage(chat_id, "The level of trash is " + trash_level + " %")
+=======
+        bot.sendMessage(chat_id, "Voltage of battery motor is " + v_motor + " Volt");
+    elif command == '/Voltage_PC':
+        for row in records:
+                v_pc = str(row[2])
+        bot.sendMessage(chat_id, "Voltage of battery PC is " + v_pc + " Volt");
+    elif command == '/Estimation_Motor':
+        for row in records:
+                t_est_motor = str(row[3])
+        bot.sendMessage(chat_id, "Estimation working time of battery motor is " + t_est_motor + " Minutes");
+    elif command == '/Estimation_PC':
+        for row in records:
+                t_est_pc = str(row[4])
+        bot.sendMessage(chat_id, "Estimation working time of battery PC is " + t_est_pc + " Minutes");
+    elif command == '/Trash_Level':
+        for row in records:
+                trash_level = str(row[5])
+        bot.sendMessage(chat_id, "The level of trash is " + trash_level + " %");
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
     elif command == '/Power_Off':
         for row in records:
                 status = row[6]
                 if status == 1:
+<<<<<<< HEAD
                     bot.sendMessage(chat_id, "Are you sure to shutdown the robot? Y/T")
     elif command == 'Y':
         bot.sendMessage(chat_id, "The robot is stopped working")
+=======
+                    bot.sendMessage(chat_id, "Are you sure to shutdown the robot? Y/T");
+    elif command == 'Y':
+        bot.sendMessage(chat_id, "The robot is stopped working");
+>>>>>>> 72077c9f7d00d6e37eb9a5a71bb05beba084b2ce
                     
 bot = telepot.Bot('465769589:AAFg10QLqp7XKf_2DpGgTfCWPzCtiOe0Yus')
 bot.message_loop(handle)
