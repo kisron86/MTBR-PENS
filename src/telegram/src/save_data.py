@@ -31,7 +31,7 @@ if __name__=='__main__':
         )
         mycursor = mydb.cursor()
         sql = "INSERT INTO data_sensor (id_robot,v_motor, v_pc, t_est_motor, t_est_pc, trash_level, status) VALUES (%s,%s, %s, %s, %s, %s, %s)"
-        val = ("1","12.5", "11.2","30.5","40.7",data_jarak,"1")
+        val = ("1","12.5", "11.2","30.5","40.7","80.7","1")
 
         mycursor.execute(sql, val)
 
