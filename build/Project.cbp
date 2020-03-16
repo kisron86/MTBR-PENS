@@ -1497,6 +1497,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 trash_detection"/>
@@ -1535,6 +1536,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 trash_detection/fast"/>
@@ -1573,6 +1575,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_stream_publisher"/>
@@ -1611,6 +1614,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_stream_publisher/fast"/>
@@ -1649,6 +1653,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_subscriber"/>
@@ -1687,6 +1692,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_subscriber/fast"/>
@@ -1805,6 +1811,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 coba_pcl"/>
@@ -1843,6 +1850,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 coba_pcl/fast"/>
@@ -1921,6 +1929,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_stream_subscriber"/>
@@ -1959,6 +1968,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_stream_subscriber/fast"/>
@@ -2067,6 +2077,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_publisher"/>
@@ -2105,6 +2116,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 img_publisher/fast"/>
@@ -2253,6 +2265,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 open_camera_1"/>
@@ -2291,6 +2304,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 open_camera_1/fast"/>
@@ -2389,6 +2403,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 open_camera"/>
@@ -2427,6 +2442,7 @@
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/ni"/>
 					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/kisron/catkin_workspace/build/camera"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/kisron/catkin_workspace/build/camera/Makefile&quot;  VERBOSE=1 open_camera/fast"/>

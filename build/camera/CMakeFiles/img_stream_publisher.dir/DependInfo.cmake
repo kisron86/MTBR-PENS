@@ -37,6 +37,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/tcl"
   "/usr/include/ni"
   "/usr/include/openni2"
+  "camera"
   )
 
 # Targets to which this target links.
